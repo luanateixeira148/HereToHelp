@@ -6,7 +6,6 @@
 }
 
 .menu_icon_box {
-    background-color: #E3C9EA;
     height: 20px;
     width: 32px;
     position: relative;
@@ -15,10 +14,14 @@
 }
 
 .small_logo_box {
-    background-color: #34DCB8;
-    height: 42px;
+    height: 43px;
     width: 85px;
     position: relative;
     left: 40%;
     top: 21.5px;
+}
+
+#small_logo {
+    height: 43px;
+    width: 85px;
 }
