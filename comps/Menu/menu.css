@@ -1,0 +1,28 @@
+.menu_box {
+    width: 200px;
+    height: 640px;
+    padding-top: 90px;
+    background-color: #3A363E;
+    opacity: 90%;
+}
+
+.menuItem {
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+
+h6 {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    color: #FFEDFF;
+}
+
+img {
+    background-color: #FFEDFF;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
