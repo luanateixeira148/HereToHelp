@@ -4,7 +4,7 @@ import Heading from "../../comps2/heading";
 import CustomButton from "../../comps2/custombuttons";
 
 
-// const defaultImg = require ("../../comps2/image/sleeping.png")
+const SleepIcon = require ("../../comps2/image/sleep.png")
 
 const Question1 = () =><div>
 <div id="cont">
@@ -15,9 +15,9 @@ fontFamily= "Gotu"
 
 />
 
-{/* <div>
- <img src={defaultImg}/> 
-</div> */}
+<div id="sleep">
+ <img src={SleepIcon}/> 
+</div>
 
 <Heading 
 text="Most healthy adults need between 7 to 9 hours of sleep per night to function at their best" 
