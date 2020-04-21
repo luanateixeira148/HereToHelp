@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="356" height="7" viewBox="0 0 356 7">
+  <g id="group_93" data-name="group 93" transform="translate(-1621 -655)">
+    <g id="square_75" data-name="square 75" transform="translate(1621 655)" fill="#ffedff" stroke="#ffedff" stroke-width="1">
+      <rect width="72" height="7" stroke="none"/>
+      <rect x="0.5" y="0.5" width="71" height="6" fill="none"/>
+    </g>
+    <g id="square_71" data-name="square 71" transform="translate(1763 655)" fill="none" stroke="#ffedff" stroke-width="1">
+      <rect width="72" height="7" stroke="none"/>
+      <rect x="0.5" y="0.5" width="71" height="6" fill="none"/>
+    </g>
+    <g id="square_72" data-name="square 72" transform="translate(1834 655)" fill="none" stroke="#ffedff" stroke-width="1">
+      <rect width="72" height="7" stroke="none"/>
+      <rect x="0.5" y="0.5" width="71" height="6" fill="none"/>
+    </g>
+    <g id="square_73" data-name="square 73" transform="translate(1905 655)" fill="none" stroke="#ffedff" stroke-width="1">
+      <rect width="72" height="7" stroke="none"/>
+      <rect x="0.5" y="0.5" width="71" height="6" fill="none"/>
+    </g>
+    <g id="square_74" data-name="square 74" transform="translate(1692 655)" fill="none" stroke="#ffedff" stroke-width="1">
+      <rect width="72" height="7" stroke="none"/>
+      <rect x="0.5" y="0.5" width="71" height="6" fill="none"/>
+    </g>
+    <line id="line_27" data-name="line 27" y2="7" transform="translate(1692.5 655)" fill="none" stroke="#ffedff" stroke-width="1"/>
+    <line id="line_26" data-name="line 26" y2="7" transform="translate(1763 655)" fill="none" stroke="#ffedff" stroke-width="1"/>
+  </g>
+</svg>
