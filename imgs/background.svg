@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="378" height="646" viewBox="0 0 378 646">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5658af"/>
+      <stop offset="1" stop-color="#9a60b6"/>
+    </linearGradient>
+    <filter id="사각형_70" x="0" y="0" width="378" height="102" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="그룹_92" data-name="그룹 92" transform="translate(-1456 83)">
+    <g id="그룹_91" data-name="그룹 91">
+      <g id="사각형_66" data-name="사각형 66" transform="translate(1465 -77)" stroke="#707070" stroke-width="1" fill="url(#linear-gradient)">
+        <rect width="360" height="640" stroke="none"/>
+        <rect x="0.5" y="0.5" width="359" height="639" fill="none"/>
+      </g>
+      <rect id="사각형_67" data-name="사각형 67" width="359" height="562" transform="translate(1466 1)" fill="#d7bfe2" opacity="0.2" style="mix-blend-mode: color-burn;isolation: isolate"/>
+      <rect id="사각형_68" data-name="사각형 68" width="359" height="446" transform="translate(1466 7)" fill="#d7bfe2" opacity="0.24" style="mix-blend-mode: color-burn;isolation: isolate"/>
+      <g transform="matrix(1, 0, 0, 1, 1456, -83)" filter="url(#사각형_70)">
+        <g id="사각형_70-2" data-name="사각형 70" transform="translate(9 6)" fill="#6c4aa4" stroke="#6c4aa4" stroke-width="1">
+          <rect width="360" height="84" stroke="none"/>
+          <rect x="0.5" y="0.5" width="359" height="83" fill="none"/>
+        </g>
+      </g>
+      <g id="그룹_90" data-name="그룹 90" transform="translate(1465 -77)">
+        <path id="패스_68" data-name="패스 68" d="M838.751,204.365l6-9.222a14,14,0,0,0-4.1-19.369h0a14,14,0,0,0-19.369,4.1l-6,9.221-9.221-6a14,14,0,0,0-19.369,4.1h0a14,14,0,0,0,4.1,19.369l9.222,6-6,9.222a14,14,0,0,0,23.473,15.265l6-9.222,9.222,6a14,14,0,0,0,15.264-23.473Z" transform="translate(-749.382 135.982)" fill="#d7bfe2" opacity="0.24" style="mix-blend-mode: soft-light;isolation: isolate"/>
+        <rect id="사각형_61" data-name="사각형 61" width="49" height="49" rx="12" transform="translate(240.548 463.241) rotate(-26.994)" fill="#d7bfe2" opacity="0.24" style="mix-blend-mode: soft-light;isolation: isolate"/>
+        <path id="패스_69" data-name="패스 69" d="M570.688,229.789,558,237.114a19.242,19.242,0,0,0-9.621,16.664v14.647A19.242,19.242,0,0,0,558,285.09l12.685,7.323a19.243,19.243,0,0,0,19.243,0l12.685-7.323a19.243,19.243,0,0,0,9.622-16.664V253.778a19.243,19.243,0,0,0-9.622-16.664l-12.685-7.324A19.243,19.243,0,0,0,570.688,229.789Z" transform="translate(-281.382 24.982)" fill="#d7bfe2" opacity="0.24" style="mix-blend-mode: soft-light;isolation: isolate"/>
+      </g>
+    </g>
+  </g>
+</svg>
