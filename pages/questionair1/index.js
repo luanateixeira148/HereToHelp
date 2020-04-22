@@ -15,10 +15,6 @@ fontFamily= "Gotu"
 
 />
 
-<div id="sleep">
- <img src={SleepIcon}/> 
-</div>
-
 <Heading 
 text="Most healthy adults need between 7 to 9 hours of sleep per night to function at their best" 
 fontSize = {18}
@@ -27,6 +23,11 @@ fontFamily= "Lato"
 fontWeight= "lighter"
 
 />
+<div id="sleep">
+ <img src={SleepIcon}/> 
+</div>
+
+
 
 <Heading 
 text="Do you have problems falling asleep, staying asleep or sleeping too much?" 

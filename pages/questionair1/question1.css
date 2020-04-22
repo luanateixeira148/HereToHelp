@@ -1,6 +1,6 @@
 #cont{
    width: 360px;
-   height: 500px;
+   height: 800px;
    padding-left: 5px;
    padding-top: 30px;
    background-color: #5658AF;
@@ -16,4 +16,15 @@
     margin-left: 22px;
 }
 
+#sleep img{
+ 
+    height:139px;
+    width:139px;
+}
+
+#sleep{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
