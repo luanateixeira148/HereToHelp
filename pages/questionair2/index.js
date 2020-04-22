@@ -2,12 +2,14 @@ import React from "react";
 import "./question2.css";
 import Heading from "../../comps2/heading";
 import CustomButton from "../../comps2/custombuttons";
+import Header from "../../comps2/Header";
 
 
 const EatIcon = require ("../../comps2/image/eat.png")
 
 const Question2 = () =><div>
-<div id="cont">
+<div id="qcard_cont">
+<Header/>
 <Heading id="qnumber"
 text="2. Eating habits"
 textAlign= "center"

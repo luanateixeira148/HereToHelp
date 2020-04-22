@@ -2,12 +2,14 @@ import React from "react";
 import "./question3.css";
 import Heading from "../../comps2/heading";
 import CustomButton from "../../comps2/custombuttons";
+import Header from "../../comps2/Header";
 
 
 const SpiralIcon = require ("../../comps2/image/spiral.png")
 
 const Question3 = () =><div>
-<div id="cont">
+<div id="qcard_cont">
+   <Header/>
 <Heading id="qnumber"
 text="3.Energy Level"
 textAlign= "center"

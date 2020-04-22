@@ -1,9 +1,7 @@
-#cont{
-   width: 360px;
-   height: 800px;
-   padding-left: 5px;
-   padding-top: 30px;
-   background-color: #5658AF;
+#qcard_cont{
+        width:360px;
+        background-color: #5658AF;
+        padding-left: 5px;
 }
 
 #YNbuttons{

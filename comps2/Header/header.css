@@ -1,6 +1,6 @@
 .header_box {
     background-color: #5658AF;
-    height: 92px;
+    height: 90px;
     width: 100%;
     display: flex;
 }
@@ -17,7 +17,7 @@
     height: 43px;
     width: 85px;
     position: relative;
-    left: 40%;
+    left: 30%;
     top: 21.5px;
 }
 

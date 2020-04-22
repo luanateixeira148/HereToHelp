@@ -21,14 +21,15 @@ const SleepIcon = require ("../../comps2/image/sleep.png")
 
 
 const Question1 = () => <div>
-<div id="cont">
+<div id="qcard_cont">
+<Header/>
 <Heading id="qnumber"
 text="1.Sleeping habits"
 textAlign= "center"
 fontFamily= "Gotu"
-
 />
 
+<div class="text">
 <Heading 
 text="Most healthy adults need between 7 to 9 hours of sleep per night to function at their best" 
 fontSize = {18}
@@ -36,20 +37,20 @@ textAlign= "left"
 fontFamily= "Lato"
 fontWeight= "lighter"
 
-/>
+/></div>
 <div id="sleep">
  <img src={SleepIcon}/> 
 </div>
 
 
-
-<Heading 
+<div class="text">
+<Heading
 text="Do you have problems falling asleep, staying asleep or sleeping too much?" 
 fontSize = {20}
 color="#FFFFFF"
 textAlign= "left"
 fontFamily= "Lato"
-/>
+/></div>
 
 
 <div class="YNbuttons">

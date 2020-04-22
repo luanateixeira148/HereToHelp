@@ -2,12 +2,14 @@ import React from "react";
 import "./question4.css";
 import Heading from "../../comps2/heading";
 import CustomButton from "../../comps2/custombuttons";
+import Header from "../../comps2/Header";
 
 
 const BrainIcon = require ("../../comps2/image/brain.png")
 
 const Question4 = () =><div>
-<div id="cont">
+<div id="qcard_cont">
+   <Header/>
 <Heading id="qnumber"
 text="4. Concentration"
 textAlign= "center"
