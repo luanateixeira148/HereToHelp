@@ -3,23 +3,10 @@ import "./question1.css";
 import Heading from "../../comps2/heading";
 import CustomButton from "../../comps2/custombuttons";
 
-// function border1(){
-//    document.getElementById("Ybutton").style.border = "3px solid #E3C9EA";
-//    document.getElementById("Nbutton").style.border = "none";
-// }
-
-
-// function border2(){
-//    document.getElementById("Ybutton").style.border = "none";
-//    document.getElementById("Nbutton").style.border = "3px solid #E3C9EA";
-// }
-
 
 const SleepIcon = require ("../../comps2/image/sleep.png")
 
-
-
-const Question1 = () => <div>
+const Question1 = () =><div>
 <div id="cont">
 <Heading id="qnumber"
 text="1.Sleeping habits"
@@ -51,17 +38,14 @@ fontFamily= "Lato"
 />
 
 
-<div class="YNbuttons">
-
-<CustomButton id="Ybutton"
-// onClick={border1}
+<div id="YNbuttons">
+<CustomButton
 fontSize="30px"
    width="141px"
    text="YES"
 />
 
-<CustomButton id="Nbutton"
-// onClick={border2}
+<CustomButton 
    fontSize="30px"
    width="141px" 
   text="NO"

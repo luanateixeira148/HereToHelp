@@ -1,22 +1,22 @@
 import React from "react";
-import "./question1.css";
+import "./question2.css";
 import Heading from "../../comps2/heading";
 import CustomButton from "../../comps2/custombuttons";
 
 
-const SleepIcon = require ("../../comps2/image/sleep.png")
+const EatIcon = require ("../../comps2/image/eat.png")
 
-const Question1 = () =><div>
+const Question2 = () =><div>
 <div id="cont">
 <Heading id="qnumber"
-text="1.Sleeping habits"
+text="2. Eating habits"
 textAlign= "center"
 fontFamily= "Gotu"
 
 />
 
 <Heading 
-text="Most healthy adults need between 7 to 9 hours of sleep per night to function at their best" 
+text="Overeating is characterized by episodes marked by feelings of lack of control, or guilt. " 
 fontSize = {18}
 textAlign= "left"
 fontFamily= "Lato"
@@ -25,12 +25,13 @@ fontWeight= "lighter"
 />
 
 <div id="sleep">
- <img id="image" src={SleepIcon}/> 
+ <img id="image" src={EatIcon}/> 
 </div>
 
 
 <Heading 
-text="Do you have problems falling asleep, staying asleep or sleeping too much?" 
+text="Have you experienced poor 
+appetite or overeating lately?" 
 fontSize = {20}
 color="#FFFFFF"
 textAlign= "left"
@@ -67,4 +68,4 @@ fontSize={24}
 
 
 
-export default Question1;
+export default Question2;
