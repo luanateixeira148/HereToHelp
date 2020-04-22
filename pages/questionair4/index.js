@@ -1,22 +1,22 @@
 import React from "react";
-import "./question3.css";
+import "./question4.css";
 import Heading from "../../comps2/heading";
 import CustomButton from "../../comps2/custombuttons";
 
 
-const SpiralIcon = require ("../../comps2/image/spiral.png")
+const BrainIcon = require ("../../comps2/image/brain.png")
 
-const Question3 = () =><div>
+const Question4 = () =><div>
 <div id="cont">
 <Heading id="qnumber"
-text="3.Energy Level"
+text="4. Concentration"
 textAlign= "center"
 fontFamily= "Gotu"
 
 />
 
 <Heading 
-text="According to studies, fatigue occurs in over 90% of patients with depressive disorder." 
+text="Researchers have suggested that the ability to take in information efficiently is weakened in individuals who are depressed." 
 fontSize = {18}
 textAlign= "left"
 fontFamily= "Lato"
@@ -24,13 +24,13 @@ fontWeight= "lighter"
 
 />
 <div id="sleep">
- <img src={SpiralIcon}/> 
+ <img src={BrainIcon}/> 
 </div>
 
 
 
 <Heading 
-text="Have you been experiencing extreme fatigue and/or loss of energy lately?" 
+text="Are you experiencing memory loss or difficulty concentrating?" 
 fontSize = {20}
 color="#FFFFFF"
 textAlign= "left"
@@ -67,4 +67,4 @@ fontSize={24}
 
 
 
-export default Question3;
+export default Question4;
