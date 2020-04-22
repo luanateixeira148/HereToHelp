@@ -2,6 +2,7 @@ import React from "react";
 import "./question1.css";
 import Heading from "../../comps2/heading";
 import CustomButton from "../../comps2/custombuttons";
+import Header from "../../comps2/Header";
 
 // function border1(){
 //    document.getElementById("Ybutton").style.border = "3px solid #E3C9EA";
