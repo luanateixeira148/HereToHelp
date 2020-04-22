@@ -1,30 +1,30 @@
 import React, {useState, useEffect} from 'react';
 import './progression.css';
-import progression1 from './progression.png'; 
+import Link from 'next/link';
 
-const progression1 = require('./progression.png');
-const progression2 = require('./progression2.png');
-const progression3 = require('./progression3.png');
-const progression4 = require('./progression4.png');
-const progression5 = require('./progression5.png');
-
-function progressing() {
-    
-}
-
-const Progression = ({img, onClick, backgroundColor, stroke}) => <div
-style={{backgroundColor:backgroundColor, stroke:stroke}}
+const Progression = ({border, onClick, backgroundColor}) => <div
+style={{backgroundColor:backgroundColor, border:border}}
 className="bigDiv"
 onClick={onClick}>
-    <img src={img} />
+    <div className="block1"></div>
+    <div className="block2"></div>
+    <div className="block3"></div>
+    <div className="block4"></div>
+    <div className="block5"></div>
 </div>;
 
 Progression.defaultProps = {
-    img: progression1,
     backgroundColor: "#5658AF",
-    stroke: "#ffedff",
+    border: "#FFEDFF",
+    // stroke: "#ffedff",
     onClick: progressing
 }
+var progress_ind = 1;
 
+function progressing() {
+    progress_ind++
+    document.querySelector(".block"+progress_ind).style.rightBorder = "#5658AF";
+    document.querySelector(".block"+progress_ind).style.backgroundColor = "#FFEDFF";
+}
 
 export default Progression;

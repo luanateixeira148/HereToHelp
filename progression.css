@@ -1,11 +1,6 @@
 #bigDiv {
     background-color: #5658AF;
+    display:flex;
+    align-content: center;
+    justify-content: center;
 }
-
-.squares {
-    stroke: #ffedff;
-}
-
-.bigDiv img {
-    background-image: url(./progression.png);
-  }
