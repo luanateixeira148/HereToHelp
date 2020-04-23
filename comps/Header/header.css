@@ -1,0 +1,27 @@
+.header_box {
+    background-color: #5658AF;
+    height: 90px;
+    width: 100%;
+    display: flex;
+}
+
+.menu_icon_box {
+    height: 20px;
+    width: 32px;
+    position: relative;
+    left: 23.5px;
+    top: 37px;
+}
+
+.small_logo_box {
+    height: 43px;
+    width: 85px;
+    position: relative;
+    left: 30%;
+    top: 21.5px;
+}
+
+#small_logo {
+    height: 43px;
+    width: 85px;
+}

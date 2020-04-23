@@ -1,17 +1,20 @@
-import React, { useState, useEffect } from 'react';
-import './info.css';
-import Header from '../Header';
-import CustomButton from '../custombuttons'
-const depressedImage = require('./depression.png');
+import React from "react";
+import "./info1.css";
+import Header from '../../comps/Header';
+import CustomButton from '../../comps/custombuttons'
+import Link from "next/link";
 
-const Info = ({ img, title, text, backgroundColor }) => <div
-    style={{ backgroundColor: backgroundColor }}
+const depressedImage = require('../../comps/imgs/depression.png');
+
+
+const Info1 = ({ img, title, text, backgroundColor }) => <div
+style={{ backgroundColor: backgroundColor }}
     className="body"
 >
-    <div className="background" >
+<div className="background" >
     <div className="header">
         <Header />
-    </div>
+    </div> 
     <div className="title">
         {title}
     </div>
@@ -27,7 +30,9 @@ const Info = ({ img, title, text, backgroundColor }) => <div
         </footer>
     </div>
     </div>
-</div >;
+
+
+</div>;
 
 Info.defaultProps = {
     title: "How it works",
@@ -35,4 +40,4 @@ Info.defaultProps = {
     text: "Depression is classified as a mood" + <br /> + "disorder. It may be described as feelings" + <br /> + "of sadness, loss, or anger that interfere" + <br /> + "with a person’s everyday activities.",
 }
 
-export default Info;
+export default Info1;
