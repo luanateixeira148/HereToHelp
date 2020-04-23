@@ -3,6 +3,7 @@ import "./question2.css";
 import Heading from "../../comps2/heading";
 import CustomButton from "../../comps2/custombuttons";
 import Header from "../../comps2/Header";
+import Progression from "../../comps2/Progression";
 
 
 const EatIcon = require ("../../comps2/image/eat.png")
@@ -10,6 +11,7 @@ const EatIcon = require ("../../comps2/image/eat.png")
 const Question2 = () =><div>
 <div id="qcard_cont">
 <Header/>
+<Progression/>
 <Heading id="qnumber"
 text="2. Eating habits"
 textAlign= "center"

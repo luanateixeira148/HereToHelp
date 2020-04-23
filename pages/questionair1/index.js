@@ -3,6 +3,8 @@ import "./question1.css";
 import Heading from "../../comps2/heading";
 import CustomButton from "../../comps2/custombuttons";
 import Header from "../../comps2/Header";
+import Progression from "../../comps2/Progression";
+import Link from "next/link";
 
 // function border1(){
 //    document.getElementById("Ybutton").style.border = "3px solid #E3C9EA";
@@ -18,11 +20,10 @@ import Header from "../../comps2/Header";
 
 const SleepIcon = require ("../../comps2/image/sleep.png")
 
-
-
 const Question1 = () => <div>
 <div id="qcard_cont">
 <Header/>
+<Progression/>
 <Heading id="qnumber"
 text="1.Sleeping habits"
 textAlign= "center"

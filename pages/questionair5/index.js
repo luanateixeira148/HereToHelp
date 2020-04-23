@@ -3,6 +3,7 @@ import "./question5.css";
 import Heading from "../../comps2/heading";
 import CustomButton from "../../comps2/custombuttons";
 import Header from "../../comps2/Header";
+import Progression from "../../comps2/Progression";
 
 
 const SmileyIcon = require ("../../comps2/image/smiley.png")
@@ -10,6 +11,7 @@ const SmileyIcon = require ("../../comps2/image/smiley.png")
 const Question5 = () =><div>
 <div id="qcard_cont">
    <Header/>
+   <Progression/>
 <Heading id="qnumber"
 text="5. Self-harm"
 textAlign= "center"
