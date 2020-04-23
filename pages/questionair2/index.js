@@ -4,6 +4,7 @@ import Heading from "../../comps2/heading";
 import CustomButton from "../../comps2/custombuttons";
 import Header from "../../comps2/Header";
 import Progression from "../../comps2/Progression";
+import Link from "next/link";
 
 
 const EatIcon = require ("../../comps2/image/eat.png")
@@ -58,13 +59,13 @@ fontSize="30px"
   />
 </div>
 
-<div id="next">
+<Link href= "/questionair3"><div id="next">
 <CustomButton
 text="Next Question"
 fontFamily="Gotu"
 fontSize={24}
 />
-</div>
+</div></Link>
 
 </div>
 </div>

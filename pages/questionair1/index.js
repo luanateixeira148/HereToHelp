@@ -72,13 +72,13 @@ fontSize="30px"
   />
 </div>
 
-<div id="next">
+<Link href= "/questionair2"><div id="next">
 <CustomButton
 text="Next Question"
 fontFamily="Gotu"
 fontSize={24}
 />
-</div>
+</div></Link>
 
 </div>
 </div>
