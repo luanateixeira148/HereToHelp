@@ -32,7 +32,7 @@
     /* background-image: url(./imgs/background.svg);
     background-repeat: no-repeat;
     background-size: cover; */
-    background-image: linear-gradient(to bottom left, rgb(76, 62, 166),rgb(136, 70, 177));
+    background-image: linear-gradient(to bottom, #4F449B,#8951B2);
     flex-direction: column;
 }
 
@@ -50,7 +50,7 @@ footer {
 }
 
 .content {
-    /* background-image: url(../../comps/imgs/background_pattern.svg); */
+    /* background-image: url(./background_pattern.svg); */
     background-repeat: no-repeat;
     /* background-size: cover; */
     flex: 4;

@@ -1,13 +1,13 @@
 import React from "react";
-import "./info1.css";
+import "./info2.css";
 import Header from '../../comps/Header';
 import CustomButton from '../../comps/custombuttons'
 import Link from "next/link";
 
-const depressedImage = require('../../comps/imgs/depression.png');
+const brainImage = require('../../comps/imgs/brain.png');
 
 
-const Info1 = ({ img, title, text, backgroundColor }) => <div
+const Info2 = ({ img, title, text, backgroundColor }) => <div
 style={{ backgroundColor: backgroundColor }}
     className="body"
 >
@@ -25,7 +25,7 @@ style={{ backgroundColor: backgroundColor }}
         <div className="content_img">
             <img src={img} />
         </div>
-        <Link href= "/Info2"><footer>
+        <Link href= "/Info3"><footer>
             <CustomButton text="Next" fontFamily="'Gotu', sans-serif"/>
         </footer></Link>
     </div>
@@ -34,10 +34,10 @@ style={{ backgroundColor: backgroundColor }}
 
 </div>;
 
-Info1.defaultProps = {
+Info2.defaultProps = {
     title: "How it works",
-    img: depressedImage,
-    text: "Depression is classified as a mood disorder. It may be described as feelings of sadness, loss, or anger that interfere with a person’s everyday activities.",
+    img: brainImage,
+    text: "We want to help you understanding the symptoms of depression better, learning how to deal with them.",
 }
 
-export default Info1;
+export default Info2;

@@ -1,13 +1,13 @@
 import React from "react";
-import "./info1.css";
+import "./Info4.css";
 import Header from '../../comps/Header';
 import CustomButton from '../../comps/custombuttons'
 import Link from "next/link";
 
-const depressedImage = require('../../comps/imgs/depression.png');
+const exclamationImage = require('../../comps/imgs/exclamation.svg');
 
 
-const Info1 = ({ img, title, text, backgroundColor }) => <div
+const Info4 = ({ img, text2, title, text, backgroundColor }) => <div
 style={{ backgroundColor: backgroundColor }}
     className="body"
 >
@@ -21,23 +21,25 @@ style={{ backgroundColor: backgroundColor }}
     <div className="content">
         <div className="content_text">
             {text}
+            {text2}
         </div>
         <div className="content_img">
             <img src={img} />
         </div>
-        <Link href= "/Info2"><footer>
-            <CustomButton text="Next" fontFamily="'Gotu', sans-serif"/>
-        </footer></Link>
+        <footer>
+            <CustomButton text="Take the quiz" fontFamily="'Gotu', sans-serif"/>
+        </footer>
     </div>
     </div>
 
 
 </div>;
 
-Info1.defaultProps = {
-    title: "How it works",
-    img: depressedImage,
-    text: "Depression is classified as a mood disorder. It may be described as feelings of sadness, loss, or anger that interfere with a person’s everyday activities.",
+Info4.defaultProps = {
+    title: "Warning!",
+    img: exclamationImage,
+    text: "Even though we have put the biggest efforts on making this app, it cannot replace professional help.",
+    text2: "Make sure you WILL find a doctor or a specialist after this process."
 }
 
-export default Info1;
+export default Info4;

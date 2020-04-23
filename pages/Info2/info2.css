@@ -50,7 +50,7 @@ footer {
 }
 
 .content {
-    /* background-image: url(../../comps/imgs/background_pattern.svg); */
+    /* background-image: url(./background_pattern.svg); */
     background-repeat: no-repeat;
     /* background-size: cover; */
     flex: 4;
