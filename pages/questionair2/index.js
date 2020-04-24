@@ -6,6 +6,16 @@ import Header from "../../comps2/Header";
 import Progression from "../../comps2/Progression";
 import Link from "next/link";
 
+function border1(){
+   document.getElementById("Ybutton").style.border = "3px solid #E3C9EA";
+   document.getElementById("Nbutton").style.border = "none";
+}
+
+
+function border2(){
+   document.getElementById("Ybutton").style.border = "none";
+   document.getElementById("Nbutton").style.border = "3px solid #E3C9EA";
+}
 
 const EatIcon = require ("../../comps2/image/eat.png")
 
@@ -45,13 +55,15 @@ fontFamily= "Lato"
 
 
 <div id="YNbuttons">
-<CustomButton
+<CustomButton id="Ybutton"
+onClick={border1}
 fontSize="30px"
    width="141px"
    text="YES"
 />
 
-<CustomButton 
+<CustomButton id="Nbutton"
+onClick={border2}
    fontSize="30px"
    width="141px" 
   text="NO"
@@ -69,8 +81,5 @@ fontSize={24}
 
 </div>
 </div>
-
-
-
 
 export default Question2;

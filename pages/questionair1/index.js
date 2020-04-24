@@ -6,16 +6,16 @@ import Header from "../../comps2/Header";
 import Progression from "../../comps2/Progression";
 import Link from "next/link";
 
-// function border1(){
-//    document.getElementById("Ybutton").style.border = "3px solid #E3C9EA";
-//    document.getElementById("Nbutton").style.border = "none";
-// }
+function border1(){
+   document.getElementById("Ybutton").style.border = "3px solid #E3C9EA";
+   document.getElementById("Nbutton").style.border = "none";
+}
 
 
-// function border2(){
-//    document.getElementById("Ybutton").style.border = "none";
-//    document.getElementById("Nbutton").style.border = "3px solid #E3C9EA";
-// }
+function border2(){
+   document.getElementById("Ybutton").style.border = "none";
+   document.getElementById("Nbutton").style.border = "3px solid #E3C9EA";
+}
 
 
 const SleepIcon = require ("../../comps2/image/sleep.png")
@@ -57,14 +57,14 @@ fontFamily= "Lato"
 <div class="YNbuttons">
 
 <CustomButton id="Ybutton"
-// onClick={border1}
+onClick={border1}
 fontSize="30px"
    width="141px"
    text="YES"
 />
 
 <CustomButton id="Nbutton"
-// onClick={border2}
+onClick={border2}
    fontSize="30px"
    width="141px" 
   text="NO"
@@ -82,8 +82,5 @@ fontSize={24}
 
 </div>
 </div>
-
-
-
 
 export default Question1;

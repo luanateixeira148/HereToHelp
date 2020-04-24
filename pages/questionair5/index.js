@@ -6,6 +6,17 @@ import Header from "../../comps2/Header";
 import Progression from "../../comps2/Progression";
 import Link from "next/link";
 
+function border1(){
+   document.getElementById("Ybutton").style.border = "3px solid #E3C9EA";
+   document.getElementById("Nbutton").style.border = "none";
+}
+
+
+function border2(){
+   document.getElementById("Ybutton").style.border = "none";
+   document.getElementById("Nbutton").style.border = "3px solid #E3C9EA";
+}
+
 
 const SmileyIcon = require ("../../comps2/image/smiley.png")
 
@@ -20,14 +31,6 @@ fontFamily= "Gotu"
 
 />
 
-{/* <Heading 
-text="Researchers have suggested that the ability to take in information efficiently is weakened in individuals who are depressed." 
-fontSize = {18}
-textAlign= "left"
-fontFamily= "Lato"
-fontWeight= "lighter"
-
-/> */}
 <div id="sleep">
  <img src={SmileyIcon}/> 
 </div>
@@ -44,13 +47,15 @@ fontFamily= "Lato"
 
 
 <div id="YNbuttons">
-<CustomButton
+<CustomButton id="Ybutton"
+onClick={border1}
 fontSize="30px"
    width="141px"
    text="YES"
 />
 
-<CustomButton 
+<CustomButton id="Nbutton"
+onClick={border2}
    fontSize="30px"
    width="141px" 
   text="NO"
@@ -58,18 +63,17 @@ fontSize="30px"
   />
 </div>
 
+<Link href="/resultPage">
 <div id="next">
 <CustomButton
-text="Next Question"
+text="See Result"
 fontFamily="Gotu"
 fontSize={24}
 />
 </div>
-
+</Link>
 </div>
 </div>
-
-
 
 
 export default Question5;
