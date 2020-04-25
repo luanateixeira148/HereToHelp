@@ -3,23 +3,10 @@
   "version": "1.0.0",
   "description": "MDIA2109 and MDIA2106 final project",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/luanateixeira148/HereToHelp.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/luanateixeira148/HereToHelp/issues"
-  },
-  "homepage": "https://github.com/luanateixeira148/HereToHelp#readme",
   "dependencies": {
-    "next": "^9.3.4",
+    "@zeit/next-css": "^1.0.1",
+    "next": "^9.3.5",
+    "next-images": "^1.4.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
@@ -30,5 +17,23 @@
     "@storybook/addons": "^5.3.18",
     "@storybook/react": "^5.3.18",
     "babel-loader": "^8.1.0"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luanateixeira148/HereToHelp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luanateixeira148/HereToHelp/issues"
+  },
+  "homepage": "https://github.com/luanateixeira148/HereToHelp#readme"
 }
