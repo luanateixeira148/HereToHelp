@@ -1,10 +1,11 @@
-.content p, .background, .title, .content, .content_img, .body, footer, .header {
+.content p, .background, .title, .content, .body, footer, .header, .app {
     display: flex;
     align-content: center;
     justify-content: center;
 }
 
 .body {
+    /* border: 1px solid red; */
     margin: 0;
     width: 100vw;
     height: 100vh;
@@ -26,19 +27,18 @@
 }
 
 .background {
-    position: relative;
     margin: 0;
     flex: 11;
-    /* background-image: url(./imgs/background.svg);
-    background-repeat: no-repeat;
-    background-size: cover; */
-    background-image: linear-gradient(to bottom, #4F449B,#8951B2);
     flex-direction: column;
+    background-image: url(/backgroundwith.svg)!important;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 footer {
     flex: 1;
     background-color: #8553B3;
+    /* border: 1px solid red; */
 }
 
 .title {
@@ -49,19 +49,27 @@ footer {
     flex: 1;
 }
 
-.content {
-    /* background-image: url(./background_pattern.svg); */
-    background-repeat: no-repeat;
-    /* background-size: cover; */
+.app {
     flex: 4;
+    /* margin: 55px; */
     flex-direction: column;
+    width: 175px;
+    height: 50px;
+    margin: 0px 0px 0px 150px;
 }
 
-.content_img {
+.content {
+    width: 400px!important;
+    flex: 4;
+    flex-direction: column;
+    margin: 0px 0px 0px -100px!important;
+}
+
+/* .content_img {
     flex: 2;
 }
 
 .content_img img {
     width: 157px;
     height: 157px;
-}
+} */

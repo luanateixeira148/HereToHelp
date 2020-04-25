@@ -1,4 +1,4 @@
-.content p, .background, .title, .content, .content_img, .body, footer, .header {
+.content p, .background, .title, .content, .content_img, .body, footer, .header, .app {
     display: flex;
     align-content: center;
     justify-content: center;
@@ -12,6 +12,8 @@
 }
 
 .title {
+    min-width: 300px;
+    margin: 0px 0px 0px -55px!important;
     color: white;
     font-size: 30pt;
     font-family: 'Gotu', sans-serif;
@@ -26,13 +28,11 @@
 }
 
 .background {
-    position: relative;
     margin: 0;
     flex: 11;
-    /* background-image: url(./imgs/background.svg);
+    background-image: url(/background.svg)!important;
     background-repeat: no-repeat;
-    background-size: cover; */
-    background-image: linear-gradient(to bottom left, rgb(76, 62, 166),rgb(136, 70, 177));
+    background-size: cover;
     flex-direction: column;
 }
 
@@ -50,11 +50,10 @@ footer {
 }
 
 .content {
-    /* background-image: url(./background_pattern.svg); */
-    background-repeat: no-repeat;
-    /* background-size: cover; */
+    width: 400px!important;
     flex: 4;
     flex-direction: column;
+    margin: 0px 0px 0px -100px!important;
 }
 
 .content_img {
@@ -64,4 +63,13 @@ footer {
 .content_img img {
     width: 157px;
     height: 157px;
+}
+
+.app {
+    flex: 4;
+    /* margin: 55px; */
+    flex-direction: column;
+    width: 175px;
+    height: 50px;
+    margin: 0px 0px 0px 150px;
 }

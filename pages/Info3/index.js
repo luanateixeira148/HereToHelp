@@ -14,7 +14,8 @@ style={{ backgroundColor: backgroundColor }}
 <div className="background" >
     <div className="header">
         <Header />
-    </div> 
+    </div>
+    <div className="app">
     <div className="title">
         {title}
     </div>
@@ -25,10 +26,12 @@ style={{ backgroundColor: backgroundColor }}
         <div className="content_img">
             <img src={img} />
         </div>
+        </div>
+        </div>
         <Link href= "/Info4"><footer>
             <CustomButton text="Next" fontFamily="'Gotu', sans-serif"/>
         </footer></Link>
-    </div>
+    
     </div>
 
 

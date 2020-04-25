@@ -1,0 +1,72 @@
+.background, .title, .content, .content_img, .body, footer, .app {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.title {
+    min-width: 300px;
+    margin:70px 0px 0px 80px!important;
+    color: white;
+    font-size: 22pt;
+    font-family: 'Gotu', sans-serif;
+}
+
+.content_text {
+    color: white;
+    font-weight: lighter;
+    font-size: 16pt;
+    flex: 1;
+    font-family: 'Gotu', sans-serif;
+    /* margin:0px 0px 0px 100px!important; */
+}
+
+.background {
+    margin: 0;
+    flex: 11;
+    background-image: url(/backgroundOne.svg)!important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+}
+
+footer {
+    flex: 1;
+}
+
+.title {
+    flex: 1;
+}
+
+.content {
+    width: 400px!important;
+    flex: 4;
+    flex-direction: column;
+    margin: 0px 0px 0px 100px!important;
+}
+
+.content_img {
+    flex: 3;
+    margin:10px 0px 0px -110px!important;
+}
+
+.content_img img {
+    width: 296px;
+    height: 296px;
+}
+
+.app {
+    flex: 11;
+    /* margin: 55px; */
+    flex-direction: column;
+    width: 175px;
+    height: 50px;
+    /* margin: 0px 0px 0px 10px; */
+}
