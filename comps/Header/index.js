@@ -18,6 +18,9 @@ className='header_box'>
     </div>
 
     <div className='menu_box'>
+        <div className='menuItem' onClick={openHeader} id='backIcon'>
+            <img src={MenuData.icon6} />
+        </div>
         <div className='menuItem'>
             <img src={MenuData.icon1} />
             <h6>{MenuData.item1}</h6>

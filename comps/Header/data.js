@@ -3,6 +3,7 @@ const tutorialIcon = require('../graphics/tutorial.svg');
 const questionnaireIcon = require('../graphics/questionnaire.svg');
 const resourcesIcon = require('../graphics/resources.svg');
 const aboutUsIcon = require('../graphics/us.svg');
+const backIcon = require('../graphics/back.svg');
 
 
 export const MenuData = {
@@ -16,4 +17,5 @@ export const MenuData = {
     icon4:resourcesIcon,
     item5:"About Us",
     icon5:aboutUsIcon,
+    icon6:backIcon,
 }
