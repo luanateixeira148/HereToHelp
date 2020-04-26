@@ -26,4 +26,15 @@ const Menu = () =>
     </div>
 </div>;
 
+let menu_open = false;
+function openHeader() {
+    if(menu_open === false) {
+        document.querySelector(".menu_box").style.left = "0";
+        menu_open = true;
+    } else {
+        document.querySelector(".menu_box").style.left = "-100%";
+        menu_open = false;
+    }
+}
+
 export default Menu;
