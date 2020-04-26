@@ -1,7 +1,7 @@
 .menu_box {
     width: 200px;
     height: 640px;
-    padding-top: 90px;
+    padding-top: 30px;
     background-color: #3A363E;
     opacity: 90%;
     position: absolute;
@@ -9,7 +9,7 @@
 }
 
 .menuItem {
-    margin: 15px;
+    margin: 30px;
     display: flex;
     align-items: center;
     height: 30px;
