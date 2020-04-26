@@ -7,9 +7,9 @@ const menuIcon = require('../graphics/menu_icon.svg');
 const smallLogo = require ('../graphics/small_logo.svg');
 
 const Header = ({headerColor}) => 
-<div 
-style= {{backgroundColor:headerColor}}
-className='header_box'>
+    <div 
+    style= {{backgroundColor:headerColor}}
+    className='header_box'>
     <div className='menu_icon_box' onClick={openHeader}>
         <img id='menu_icon' src={menuIcon} />
     </div>
@@ -41,7 +41,7 @@ className='header_box'>
             <img src={MenuData.icon5} />
             <h6>{MenuData.item5}</h6>
         </div>
-    </div>;
+    </div>
 </div>;
 
 Header.defaultProps = {
