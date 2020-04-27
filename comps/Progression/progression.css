@@ -1,0 +1,22 @@
+.bigDiv {
+    width: 100vw;
+    height: 100vh;
+    background-color: #5658AF;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.block1, .block2, .block3, .block4, .block5 {
+    width: 72px;
+    height: 7px;
+    border: 1px solid #FFEDFF;
+}
+
+.block1 {
+    background-color: #FFEDFF;
+}
+
+.block1, .block2, .block3, .block4 {
+    border-right: #5658AF;
+}

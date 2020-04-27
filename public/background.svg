@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360" height="640" viewBox="0 0 360 640">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5658af"/>
+      <stop offset="1" stop-color="#9a60b6"/>
+    </linearGradient>
+  </defs>
+  <g id="그룹_102" data-name="그룹 102" transform="translate(-1496 89)">
+    <g id="사각형_66" data-name="사각형 66" transform="translate(1496 -89)" stroke="#707070" stroke-width="1" fill="url(#linear-gradient)">
+      <rect width="360" height="640" stroke="none"/>
+      <rect x="0.5" y="0.5" width="359" height="639" fill="none"/>
+    </g>
+    <rect id="사각형_67" data-name="사각형 67" width="359" height="640" transform="translate(1497 -89)" fill="#d7bfe2" opacity="0.2" style="mix-blend-mode: color-burn;isolation: isolate"/>
+    <rect id="사각형_68" data-name="사각형 68" width="359" height="530" transform="translate(1496 -89)" fill="#d7bfe2" opacity="0.24" style="mix-blend-mode: color-burn;isolation: isolate"/>
+    <g id="그룹_90" data-name="그룹 90" transform="translate(1496 -89)">
+      <path id="패스_68" data-name="패스 68" d="M838.751,204.365l6-9.222a14,14,0,0,0-4.1-19.369h0a14,14,0,0,0-19.369,4.1l-6,9.221-9.221-6a14,14,0,0,0-19.369,4.1h0a14,14,0,0,0,4.1,19.369l9.222,6-6,9.222a14,14,0,0,0,23.473,15.265l6-9.222,9.222,6a14,14,0,0,0,15.264-23.473Z" transform="translate(-749.382 135.982)" fill="#d7bfe2" opacity="0.24" style="mix-blend-mode: soft-light;isolation: isolate"/>
+      <rect id="사각형_61" data-name="사각형 61" width="49" height="49" rx="12" transform="translate(240.548 463.241) rotate(-26.994)" fill="#d7bfe2" opacity="0.24" style="mix-blend-mode: soft-light;isolation: isolate"/>
+      <path id="패스_69" data-name="패스 69" d="M570.688,229.789,558,237.114a19.242,19.242,0,0,0-9.621,16.664v14.647A19.242,19.242,0,0,0,558,285.09l12.685,7.323a19.243,19.243,0,0,0,19.243,0l12.685-7.323a19.243,19.243,0,0,0,9.622-16.664V253.778a19.243,19.243,0,0,0-9.622-16.664l-12.685-7.324A19.243,19.243,0,0,0,570.688,229.789Z" transform="translate(-281.382 24.982)" fill="#d7bfe2" opacity="0.24" style="mix-blend-mode: soft-light;isolation: isolate"/>
+    </g>
+  </g>
+</svg>
