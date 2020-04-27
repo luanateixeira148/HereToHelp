@@ -1,8 +1,6 @@
 import React from "react";
 import "./cb.css";
 
-
-
 const CustomButton = ({text, border, width, fontSize, fontFamily, onClick}) => <div
 style={{border:border, width:width, fontSize:fontSize, fontFamily:fontFamily}}
 className="button_box" onClick={onClick} >
