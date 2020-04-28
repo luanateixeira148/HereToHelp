@@ -2,6 +2,7 @@
   "name": "heretohelp",
   "version": "1.0.0",
   "description": "MDIA2109 and MDIA2106 final project",
+<<<<<<< HEAD
   "main": "index.js",
 <<<<<<< HEAD
   "dependencies": {
@@ -19,6 +20,9 @@
     "@storybook/react": "^5.3.18",
     "babel-loader": "^8.1.0"
   },
+=======
+  "main": "info.js",
+>>>>>>> df948d7c0f1797e9143d6bc00e2be0f366e1c119
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
@@ -26,12 +30,15 @@
     "dev": "next",
     "build": "next build",
     "start": "next start"
+<<<<<<< HEAD
 =======
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
 >>>>>>> 0649cb2c61590e0a549f0ccecd2dea44700c6957
+=======
+>>>>>>> df948d7c0f1797e9143d6bc00e2be0f366e1c119
   },
   "repository": {
     "type": "git",
@@ -43,11 +50,19 @@
     "url": "https://github.com/luanateixeira148/HereToHelp/issues"
   },
 <<<<<<< HEAD
+<<<<<<< HEAD
   "homepage": "https://github.com/luanateixeira148/HereToHelp#readme"
 =======
   "homepage": "https://github.com/luanateixeira148/HereToHelp#readme",
   "dependencies": {
     "next": "^9.3.4",
+=======
+  "homepage": "https://github.com/luanateixeira148/HereToHelp#readme",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "next": "^9.3.5",
+    "next-images": "^1.4.0",
+>>>>>>> df948d7c0f1797e9143d6bc00e2be0f366e1c119
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
@@ -59,5 +74,8 @@
     "@storybook/react": "^5.3.18",
     "babel-loader": "^8.1.0"
   }
+<<<<<<< HEAD
 >>>>>>> 0649cb2c61590e0a549f0ccecd2dea44700c6957
+=======
+>>>>>>> df948d7c0f1797e9143d6bc00e2be0f366e1c119
 }

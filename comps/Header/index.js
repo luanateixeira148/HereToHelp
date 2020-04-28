@@ -1,21 +1,31 @@
 import React from 'react';
 import './header.css';
+<<<<<<< HEAD
 import './menu.css';
 import { MenuData } from './data';
+=======
+>>>>>>> df948d7c0f1797e9143d6bc00e2be0f366e1c119
 
 const menuIcon = require('../graphics/menu_icon.svg');
 const smallLogo = require ('../graphics/small_logo.svg');
 
+<<<<<<< HEAD
 const Header = ({headerColor}) => 
     <div 
     style= {{backgroundColor:headerColor}}
     className='header_box'>
     <div className='menu_icon_box' onClick={openHeader}>
+=======
+const Header = () => 
+<div className='header_box'>
+    <div className='menu_icon_box'>
+>>>>>>> df948d7c0f1797e9143d6bc00e2be0f366e1c119
         <img id='menu_icon' src={menuIcon} />
     </div>
     <div className='small_logo_box'>
         <img id='small_logo' src={smallLogo} />
     </div>
+<<<<<<< HEAD
 
     <div className='menu_box'>
         <div className='menuItem' onClick={openHeader} id='backIcon'>
@@ -59,4 +69,8 @@ function openHeader() {
     }
 }
 
+=======
+</div>;
+
+>>>>>>> df948d7c0f1797e9143d6bc00e2be0f366e1c119
 export default Header;
