@@ -9,21 +9,21 @@ const brainImage = require('../../comps/imgs/brain.png');
 
 const Info2 = ({ img, title, text, backgroundColor }) => <div
 style={{ backgroundColor: backgroundColor }}
-    className="body"
+    className="body2"
 >
-<div className="background" >
-    <div className="header">
+<div className="background2" >
+    <div className="header2">
         <Header />
     </div> 
-    <div className="app">
-    <div className="title">
+    <div className="app2">
+    <div className="title2">
         {title}
     </div>
-    <div className="content">
-        <div className="content_text">
+    <div className="content2">
+        <div className="content_text2">
             {text}
         </div>
-        <div className="content_img">
+        <div className="content_img2">
             <img src={img} />
         </div>
         </div>
