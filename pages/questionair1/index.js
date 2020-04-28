@@ -2,8 +2,8 @@ import React from "react";
 import "./question1.css";
 import Heading from "../../comps2/heading";
 import CustomButton from "../../comps2/custombuttons";
-import Header from "../../comps2/Header";
-import Progression from "../../comps2/Progression";
+import Header from "../../comps/Header";
+import Progression from "../../comps/Progression";
 import Link from "next/link";
 
 function border1(){
