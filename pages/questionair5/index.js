@@ -1,12 +1,13 @@
 import React from "react";
 import "./question5.css";
-import Heading from "../../comps2/heading";
-import CustomButton from "../../comps2/custombuttons";
-import Header from "../../comps2/Header";
-import Progression from "../../comps2/Progression";
+import Heading from "../../comps/heading";
+import CustomButton from "../../comps/custombuttons";
+import Header from "../../comps/Header";
+import Progression from "../../comps/Progression";
+import Link from "next/link";
 
 
-const SmileyIcon = require ("../../comps2/image/smiley.png")
+const SmileyIcon = require ("../../comps/image/smiley.png")
 
 const Question5 = () =><div>
 <div id="qcard_cont">
@@ -57,13 +58,13 @@ fontSize="30px"
   />
 </div>
 
-<div id="next">
+<Link href= "/ResultPage"><div id="next">
 <CustomButton
-text="Next Question"
+text="See Result"
 fontFamily="Gotu"
 fontSize={24}
 />
-</div>
+</div></Link>
 
 </div>
 </div>

@@ -1,12 +1,13 @@
 import React from "react";
 import "./question3.css";
-import Heading from "../../comps2/heading";
-import CustomButton from "../../comps2/custombuttons";
-import Header from "../../comps2/Header";
-import Progression from "../../comps2/Progression";
+import Heading from "../../comps/heading";
+import CustomButton from "../../comps/custombuttons";
+import Header from "../../comps/Header";
+import Progression from "../../comps/Progression";
+import Link from "next/link";
 
 
-const SpiralIcon = require ("../../comps2/image/spiral.png")
+const SpiralIcon = require ("../../comps/image/spiral.png")
 
 const Question3 = () =><div>
 <div id="qcard_cont">
@@ -57,13 +58,13 @@ fontSize="30px"
   />
 </div>
 
-<div id="next">
+<Link href= "/questionair4"><div id="next">
 <CustomButton
 text="Next Question"
 fontFamily="Gotu"
 fontSize={24}
 />
-</div>
+</div></Link>
 
 </div>
 </div>

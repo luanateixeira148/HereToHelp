@@ -2,6 +2,7 @@ import React from 'react';
 import './resources.css';
 import Header from '../../comps/Header';
 import CustomButton from '../../comps/custombuttons';
+import Link from "next/link";
 
 const ResourcePage = ({}) =>
 <div id='resources_container'>
@@ -28,9 +29,9 @@ const ResourcePage = ({}) =>
             <p>https://familysmart.ca/</p>
         </div>
     </div>
-    <div className='resorcesButton'>
+    <Link href= "./"><div className='resorcesButton'>
         <CustomButton text='Home' />
-    </div>
+    </div></Link>
 </div>
 
 export default ResourcePage;

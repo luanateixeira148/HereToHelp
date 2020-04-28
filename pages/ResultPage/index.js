@@ -4,15 +4,16 @@ import Header from '../../comps/Header';
 import Result from '../../comps/Result';
 import ResultCard from '../../comps/ResultCard';
 import CustomButton from '../../comps/custombuttons';
+import Link from "next/link";
 
 const ResultPage = ({}) => 
 <div>
     <Header />
     <Result />
     <ResultCard />
-    <div className='resultButton'>
+    <Link href= "/Resources"><div className='resultButton'>
         <CustomButton text="Resources" />
-    </div>
+    </div></Link>
 </div>
 
 ResultPage.defaultPprops = {

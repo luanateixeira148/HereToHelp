@@ -18,7 +18,7 @@ import Link from "next/link";
 // }
 
 
-const SleepIcon = require ("../../comps2/image/sleep.png")
+const SleepIcon = require ("../../comps/image/sleep.png")
 
 const Question1 = () => <div>
 <div id="qcard_cont">
@@ -72,7 +72,7 @@ fontSize="30px"
   />
 </div>
 
-<Link href= "/questionair1"><div id="next">
+<Link href= "/questionair2"><div id="next">
 <CustomButton
 text="Next Question"
 fontFamily="Gotu"
