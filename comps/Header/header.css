@@ -1,17 +1,8 @@
 .header_box {
-<<<<<<< HEAD
-    /* background-color: #6C4AA4; */
-    height: 92px;
-    width: 360px;
-    display: flex;
-    box-shadow: 0px 3px 6px rgba(0,0,0,0.20);
-    position: relative;
-=======
     background-color: #5658AF;
     height: 90px;
     width: 100%;
     display: flex;
->>>>>>> df948d7c0f1797e9143d6bc00e2be0f366e1c119
 }
 
 .menu_icon_box {
@@ -26,11 +17,7 @@
     height: 43px;
     width: 85px;
     position: relative;
-<<<<<<< HEAD
-    left: 40%;
-=======
     left: 30%;
->>>>>>> df948d7c0f1797e9143d6bc00e2be0f366e1c119
     top: 21.5px;
 }
 
