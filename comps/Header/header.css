@@ -1,8 +1,10 @@
 .header_box {
-    background-color: #5658AF;
+    /* background-color: #6C4AA4; */
     height: 92px;
-    width: 100%;
+    width: 360px;
     display: flex;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.20);
+    position: relative;
 }
 
 .menu_icon_box {

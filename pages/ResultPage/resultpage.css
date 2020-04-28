@@ -1,0 +1,8 @@
+.resultButton {
+    width: 360px;
+    height: 102px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #705BB4;
+}

@@ -1,9 +1,9 @@
 import React from 'react';
-import ResultCard from '../comps/ResultCard';
+import ResultCardSleep from '../comps/ResultCard';
 
 export default {
-    title: 'ResultCard',
-    component: ResultCard,
+    title: 'Result Cards',
+    component: ResultCardSleep,
 };
 
-export const MyResultCard = () => <ResultCard />
+export const MyResultCardSleep = () => <ResultCardSleep />;
