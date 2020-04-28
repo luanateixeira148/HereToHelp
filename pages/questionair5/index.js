@@ -4,7 +4,29 @@ import Heading from "../../comps/heading";
 import CustomButton from "../../comps/custombuttons";
 import Header from "../../comps/Header";
 import Progression from "../../comps/Progression";
-import Link from "next/link";
+import Router from "next/router";
+
+
+var q3answered = false;
+function Q3Next(){
+   if(q3answered===false){
+      Router.push("/ResultPage");
+   } else {
+      alert("ANSWER!")
+   }
+}
+function border1(){
+   document.getElementById("Ybutton").style.border = "3px solid #E3C9EA";
+   document.getElementById("Nbutton").style.border = "none";
+   
+}
+
+
+function border2(){
+   document.getElementById("Ybutton").style.border = "none";
+   document.getElementById("Nbutton").style.border = "3px solid #E3C9EA";
+
+}
 
 
 const SmileyIcon = require ("../../comps/image/smiley.png")
@@ -44,13 +66,15 @@ fontFamily= "Lato"
 
 
 <div id="YNbuttons">
-<CustomButton
+<CustomButton id="Ybutton"
+onClick={border1}
 fontSize="30px"
    width="141px"
    text="YES"
 />
 
-<CustomButton 
+<CustomButton id="Nbutton"
+onClick={border2}
    fontSize="30px"
    width="141px" 
   text="NO"
@@ -58,13 +82,13 @@ fontSize="30px"
   />
 </div>
 
-<Link href= "/ResultPage"><div id="next">
+<div id="next" onClick= {Q3Next}>
 <CustomButton
 text="See Result"
 fontFamily="Gotu"
 fontSize={24}
 />
-</div></Link>
+</div>
 
 </div>
 </div>

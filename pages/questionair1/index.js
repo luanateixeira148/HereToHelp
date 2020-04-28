@@ -4,27 +4,28 @@ import Heading from "../../comps/heading";
 import CustomButton from "../../comps/custombuttons";
 import Header from "../../comps/Header";
 import Progression from "../../comps/Progression";
-import Link from "next/link";
 import Router from "next/router";
 
 var q3answered = false;
 function Q3Next(){
-   if(q3answered){
-      Router.push("/questionaire2");
+   if(q3answered===false){
+      Router.push("/questionair2");
    } else {
       alert("ANSWER!")
    }
 }
-// function border1(){
-//    document.getElementById("Ybutton").style.border = "3px solid #E3C9EA";
-//    document.getElementById("Nbutton").style.border = "none";
-// }
+function border1(){
+   document.getElementById("Ybutton").style.border = "3px solid #E3C9EA";
+   document.getElementById("Nbutton").style.border = "none";
+   
+}
 
 
-// function border2(){
-//    document.getElementById("Ybutton").style.border = "none";
-//    document.getElementById("Nbutton").style.border = "3px solid #E3C9EA";
-// }
+function border2(){
+   document.getElementById("Ybutton").style.border = "none";
+   document.getElementById("Nbutton").style.border = "3px solid #E3C9EA";
+
+}
 
 
 const SleepIcon = require ("../../comps/image/sleep.png")
@@ -66,14 +67,14 @@ fontFamily= "Lato"
 <div class="YNbuttons">
 
 <CustomButton id="Ybutton"
-// onClick={border1}
+onClick={border1}
 fontSize="30px"
    width="141px"
    text="YES"
 />
 
 <CustomButton id="Nbutton"
-// onClick={border2}
+onClick={border2}
    fontSize="30px"
    width="141px" 
   text="NO"
@@ -81,7 +82,7 @@ fontSize="30px"
   />
 </div>
 
-<div id="next" onClick={Q3Next}>
+<div id="next" onClick= {Q3Next}>
 <CustomButton
 text="Next Question"
 fontFamily="Gotu"
