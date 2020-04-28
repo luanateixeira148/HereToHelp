@@ -3,6 +3,7 @@ import './header.css';
 import './menu.css';
 import { MenuData } from './data';
 
+//fixed the menu css somehow
 const menuIcon = require('../graphics/menu_icon.svg');
 const smallLogo = require ('../graphics/small_logo.svg');
 
