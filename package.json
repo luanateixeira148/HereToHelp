@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "MDIA2109 and MDIA2106 final project",
   "main": "index.js",
+<<<<<<< HEAD
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
     "next": "^9.3.5",
@@ -25,6 +26,12 @@
     "dev": "next",
     "build": "next build",
     "start": "next start"
+=======
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+>>>>>>> 0649cb2c61590e0a549f0ccecd2dea44700c6957
   },
   "repository": {
     "type": "git",
@@ -35,5 +42,22 @@
   "bugs": {
     "url": "https://github.com/luanateixeira148/HereToHelp/issues"
   },
+<<<<<<< HEAD
   "homepage": "https://github.com/luanateixeira148/HereToHelp#readme"
+=======
+  "homepage": "https://github.com/luanateixeira148/HereToHelp#readme",
+  "dependencies": {
+    "next": "^9.3.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@storybook/addon-actions": "^5.3.18",
+    "@storybook/addon-links": "^5.3.18",
+    "@storybook/addons": "^5.3.18",
+    "@storybook/react": "^5.3.18",
+    "babel-loader": "^8.1.0"
+  }
+>>>>>>> 0649cb2c61590e0a549f0ccecd2dea44700c6957
 }
