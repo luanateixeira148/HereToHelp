@@ -1,9 +1,9 @@
 import React from "react";
 import "./question1.css";
-import Heading from "../../comps2/heading";
-import CustomButton from "../../comps2/custombuttons";
-import Header from "../../comps2/Header";
-import Progression from "../../comps2/Progression";
+import Heading from "../../comps/heading";
+import CustomButton from "../../comps/custombuttons";
+import Header from "../../comps/Header";
+import Progression from "../../comps/Progression";
 import Link from "next/link";
 
 // function border1(){
@@ -72,13 +72,13 @@ fontSize="30px"
   />
 </div>
 
-<div id="next">
+<Link href= "/questionair1"><div id="next">
 <CustomButton
 text="Next Question"
 fontFamily="Gotu"
 fontSize={24}
 />
-</div>
+</div></Link>
 
 </div>
 </div>

@@ -9,18 +9,18 @@ import Link from "next/link";
 
 const Info4 = ({ img, text2, title, text, backgroundColor }) => <div
     style={{ backgroundColor: backgroundColor }}
-    className="body"
+    className="body4"
 >
-    <div className="background" >
-        <div className="header">
+    <div className="background4" >
+        <div className="header44">
             <Header />
         </div>
-        <div className="app">
-            <div className="title">
+        <div className="app4">
+            <div className="title4">
                 {title}
             </div>
-            <div className="content">
-                <div className="content_text">
+            <div className="content4">
+                <div className="content_text4">
                     {text}
                     <br/>
                     <br/>
@@ -31,9 +31,10 @@ const Info4 = ({ img, text2, title, text, backgroundColor }) => <div
         </div> */}
             </div>
         </div>
-        <footer>
+        
+        <Link href= "/questionair1"><footer>
             <CustomButton text="Take the quiz" fontFamily="'Gotu', sans-serif" />
-        </footer>
+        </footer></Link>
     </div>
 
 

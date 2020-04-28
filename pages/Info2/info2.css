@@ -1,33 +1,32 @@
-.content p, .background, .title, .content, .content_img, .body, footer, .header, .app {
+.content_text2, .background2, .title2, .content2, .content_img2, .body2, footer, .header2, .app2 {
     display: flex;
     align-content: center;
     justify-content: center;
 }
 
-.body {
+.body2 {
     margin: 0;
     width: 100vw;
     height: 100vh;
     flex-direction: column;
 }
 
-.title {
-    min-width: 300px;
-    margin: 0px 0px 0px -55px!important;
+.title2 {
     color: white;
     font-size: 30pt;
     font-family: 'Gotu', sans-serif;
 }
 
-.content_text {
+.content_text2 {
     color: white;
     font-weight: lighter;
     font-size: 18pt;
     flex: 1;
     font-family: 'Lato', sans-serif;
+    padding: 0px 40px;
 }
 
-.background {
+.background2 {
     margin: 0;
     flex: 11;
     background-image: url(/background.svg)!important;
@@ -41,35 +40,30 @@ footer {
     background-color: #8553B3;
 }
 
-.title {
+.title2 {
     flex: 1;
 }
 
-.header {
+.header2 {
     flex: 1;
 }
 
-.content {
-    width: 400px!important;
+.content2 {
     flex: 4;
     flex-direction: column;
-    margin: 0px 0px 0px -100px!important;
 }
 
-.content_img {
+.content_img2 {
     flex: 2;
 }
 
-.content_img img {
+.content_img2 img {
     width: 157px;
     height: 157px;
 }
 
-.app {
+.app2 {
     flex: 4;
     /* margin: 55px; */
     flex-direction: column;
-    width: 175px;
-    height: 50px;
-    margin: 0px 0px 0px 150px;
 }
