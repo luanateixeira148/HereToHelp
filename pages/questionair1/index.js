@@ -5,7 +5,16 @@ import CustomButton from "../../comps/custombuttons";
 import Header from "../../comps/Header";
 import Progression from "../../comps/Progression";
 import Link from "next/link";
+import Router from "next/router";
 
+var q3answered = false;
+function Q3Next(){
+   if(q3answered){
+      Router.push("/questionaire2");
+   } else {
+      alert("ANSWER!")
+   }
+}
 // function border1(){
 //    document.getElementById("Ybutton").style.border = "3px solid #E3C9EA";
 //    document.getElementById("Nbutton").style.border = "none";
@@ -72,13 +81,13 @@ fontSize="30px"
   />
 </div>
 
-<Link href= "/questionair2"><div id="next">
+<div id="next" onClick={Q3Next}>
 <CustomButton
 text="Next Question"
 fontFamily="Gotu"
 fontSize={24}
 />
-</div></Link>
+</div>
 
 </div>
 </div>
