@@ -1,4 +1,4 @@
-.background, .title, .content, .content_img, .body, footer, .app {
+.background, .title, .content, .content_img, .body, footer, .app, .content_text {
     display: flex;
     align-content: center;
     justify-content: center;
@@ -12,11 +12,12 @@
 }
 
 .title {
-    min-width: 300px;
-    margin:70px 0px 0px 80px!important;
+    /* min-width: 300px;
+    margin:70px 0px 0px 80px!important; */
     color: white;
     font-size: 22pt;
     font-family: 'Gotu', sans-serif;
+    padding: 40px;
 }
 
 .content_text {
@@ -25,6 +26,7 @@
     font-size: 16pt;
     flex: 1;
     font-family: 'Gotu', sans-serif;
+    padding: 0px 40px;
     /* margin:0px 0px 0px 100px!important; */
 }
 
@@ -46,15 +48,15 @@ footer {
 }
 
 .content {
-    width: 400px!important;
+    /* width: 400px!important; */
     flex: 4;
     flex-direction: column;
-    margin: 0px 0px 0px 100px!important;
+    /* margin: 0px 0px 0px 100px!important; */
 }
 
 .content_img {
     flex: 3;
-    margin:10px 0px 0px -110px!important;
+    /* margin:10px 0px 0px -110px!important; */
 }
 
 .content_img img {
@@ -66,7 +68,7 @@ footer {
     flex: 11;
     /* margin: 55px; */
     flex-direction: column;
-    width: 175px;
-    height: 50px;
+    /* width: 175px;
+    height: 50px; */
     /* margin: 0px 0px 0px 10px; */
 }

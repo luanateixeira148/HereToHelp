@@ -1,32 +1,33 @@
-.content p, .background, .title, .content, .body, footer, .header, .app {
+.content_text4, .background4, .title4, .content4, .body4, footer, .header4, .app4 {
     display: flex;
     align-content: center;
     justify-content: center;
 }
 
-.body {
-    /* border: 1px solid red; */
+.body4 {
     margin: 0;
     width: 100vw;
     height: 100vh;
     flex-direction: column;
 }
 
-.title {
+.title4 {
     color: white;
     font-size: 30pt;
     font-family: 'Gotu', sans-serif;
+    padding: 30px 0px 0px 0px;
 }
 
-.content_text {
+.content_text4 {
     color: white;
     font-weight: lighter;
     font-size: 18pt;
     flex: 1;
     font-family: 'Lato', sans-serif;
+    padding: 0px 40px;
 }
 
-.background {
+.background4 {
     margin: 0;
     flex: 11;
     flex-direction: column;
@@ -41,28 +42,28 @@ footer {
     /* border: 1px solid red; */
 }
 
-.title {
+.title4 {
     flex: 1;
 }
 
-.header {
+.header4 {
     flex: 1;
 }
 
-.app {
+.app4 {
     flex: 4;
     /* margin: 55px; */
     flex-direction: column;
-    width: 175px;
+    /* width: 175px;
     height: 50px;
-    margin: 0px 0px 0px 150px;
+    margin: 0px 0px 0px 150px; */
 }
 
-.content {
-    width: 400px!important;
+.content4 {
+    /* width: 400px!important; */
     flex: 4;
     flex-direction: column;
-    margin: 0px 0px 0px -100px!important;
+    /* margin: 0px 0px 0px -100px!important; */
 }
 
 /* .content_img {
