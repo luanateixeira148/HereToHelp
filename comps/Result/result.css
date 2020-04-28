@@ -24,6 +24,7 @@ h2 {
     height: fit-content;
     background-color: #6654AD;
     padding-bottom: 20px;
+    position: absolute;
 }
 
 .measure {
