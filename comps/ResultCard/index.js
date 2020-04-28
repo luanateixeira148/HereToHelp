@@ -2,7 +2,7 @@ import React from 'react';
 import './resultcard.css';
 import {ResultCardData} from './data';
 
-const ResultCard = () =>
+const ResultCardSleep = () =>
 <div className='resultCard'>
     <img className='rcImage' src={ResultCardData.image1} />
     <div className='rcTitle'>
@@ -14,4 +14,4 @@ const ResultCard = () =>
     </div>
 </div>;
 
-export default ResultCard;
+export default ResultCardSleep;

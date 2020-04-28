@@ -1,0 +1,67 @@
+ .content p, .background, .title, .content, .content_img, .body, footer, .header {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.title {
+    color: white;
+    font-size: 30pt;
+    font-family: 'Gotu', sans-serif;
+}
+
+.content_text {
+    color: white;
+    font-weight: lighter;
+    font-size: 18pt;
+    flex: 1;
+    font-family: 'Lato', sans-serif;
+}
+
+.background {
+    position: relative;
+    margin: 0;
+    flex: 11;
+    /* background-image: url(./imgs/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-image: linear-gradient(to bottom left, rgb(76, 62, 166),rgb(136, 70, 177));
+    flex-direction: column;
+}
+
+footer {
+    flex: 1;
+    background-color: #8553B3;
+}
+
+.title {
+    flex: 1;
+}
+
+.header {
+    flex: 1;
+}
+
+.content {
+    background-image: url(./background_pattern.svg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    flex: 4;
+    flex-direction: column;
+}
+
+.content_img {
+    flex: 2;
+}
+
+.content_img img {
+    width: 157px;
+    height: 157px;
+}
