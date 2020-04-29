@@ -6,7 +6,6 @@ import Header from "../../comps/Header";
 import Progression from "../../comps/Progression";
 import Router from "next/router";
 
-
 var q4answered = false;
 function q4Next(){
    if(q4answered===true){

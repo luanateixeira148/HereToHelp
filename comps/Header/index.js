@@ -1,13 +1,35 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import './header.css';
 import './menu.css';
 import { MenuData } from './data';
+import Router from "next/router";
 
 //fixed the menu css somehow
 const menuIcon = require('../graphics/menu_icon.svg');
 const smallLogo = require ('../graphics/small_logo.svg');
 
-const Header = ({headerColor}) => 
+function Home(){
+    Router.push("/");
+}
+
+function Tutorial(){
+    Router.push("/Info1");
+}
+
+function Quiz(){
+    Router.push("/questionair1");
+}
+
+function Resources(){
+    Router.push("/Resources");
+}
+
+// function AboutUs(){
+//     Router.push("");
+// }
+
+
+const Header = ({headerColor, onClick}) => 
     <div 
     style= {{backgroundColor:headerColor}}
     className='header_box'>
@@ -22,19 +44,23 @@ const Header = ({headerColor}) =>
         <div className='menuItem' onClick={openHeader} id='backIcon'>
             <img src={MenuData.icon6} />
         </div>
-        <div className='menuItem'>
+        <div className='menuItem'
+        onClick={Home}>
             <img src={MenuData.icon1} />
             <h6>{MenuData.item1}</h6>
         </div>
-        <div className='menuItem'>
+        <div className='menuItem'
+        onClick={Tutorial}>
             <img src={MenuData.icon2} />
             <h6>{MenuData.item2}</h6>
         </div>
-        <div className='menuItem'>
+        <div className='menuItem'
+        onClick={Quiz}>
             <img src={MenuData.icon3} />
             <h6>{MenuData.item3}</h6>
         </div>
-        <div className='menuItem'>
+        <div className='menuItem'
+        onClick={Resources}>
             <img src={MenuData.icon4} />
             <h6>{MenuData.item4}</h6>
         </div>
