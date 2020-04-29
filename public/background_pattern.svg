@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="295.815" height="254.709" viewBox="0 0 295.815 254.709">
+  <g id="background_pattern" data-name="background_pattern" transform="translate(-35.04 -252.194)">
+    <path id="path_1" data-name="path_1" d="M838.751,204.365l6-9.222a14,14,0,0,0-4.1-19.369h0a14,14,0,0,0-19.369,4.1l-6,9.221-9.221-6a14,14,0,0,0-19.369,4.1h0a14,14,0,0,0,4.1,19.369l9.222,6-6,9.222a14,14,0,0,0,23.473,15.265l6-9.222,9.222,6a14,14,0,0,0,15.264-23.473Z" transform="translate(-749.382 135.982)" fill="#d7bfe2" opacity="0.24" style="mix-blend-mode: soft-light;isolation: isolate"/>
+    <rect id="square_1" data-name="square_1" width="49" height="49" rx="12" transform="translate(240.548 463.241) rotate(-26.994)" fill="#d7bfe2" opacity="0.24" style="mix-blend-mode: soft-light;isolation: isolate"/>
+    <path id="path_2" data-name="path_2" d="M570.688,229.789,558,237.114a19.242,19.242,0,0,0-9.621,16.664v14.647A19.242,19.242,0,0,0,558,285.09l12.685,7.323a19.243,19.243,0,0,0,19.243,0l12.685-7.323a19.243,19.243,0,0,0,9.622-16.664V253.778a19.243,19.243,0,0,0-9.622-16.664l-12.685-7.324A19.243,19.243,0,0,0,570.688,229.789Z" transform="translate(-281.382 24.982)" fill="#d7bfe2" opacity="0.24" style="mix-blend-mode: soft-light;isolation: isolate"/>
+  </g>
+</svg>

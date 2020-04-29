@@ -1,0 +1,36 @@
+
+#qcard_cont{
+    height: 100%;
+    width:360px;
+    background-color: #5658AF;
+
+
+}
+
+.YNbuttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#next{
+    margin-left: 22px;
+}
+
+#sleep img{
+ 
+    height:139px;
+    width:139px;
+}
+
+#sleep{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
