@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState, useEffect} from 'react';
 import "./question3.css";
 import Heading from "../../comps/heading";
 import CustomButton from "../../comps/custombuttons";
@@ -8,29 +8,30 @@ import Router from "next/router";
 
 
 var q3answered = false;
-function Q3Next(){
-   if(q3answered===false){
+function q3Next(){
+   if(q3answered===true){
       Router.push("/questionair4");
    } else {
-      alert("ANSWER!")
+      alert("ANSWER!");
    }
 }
+
 function border1(){
    document.getElementById("Ybutton").style.border = "3px solid #E3C9EA";
    document.getElementById("Nbutton").style.border = "none";
-   
+   q3answered = true;
 }
-
 
 function border2(){
    document.getElementById("Ybutton").style.border = "none";
    document.getElementById("Nbutton").style.border = "3px solid #E3C9EA";
-
+   q3answered = true;
 }
+
 
 const SpiralIcon = require ("../../comps/image/spiral.png")
 
-const Question3 = () =><div>
+const Question3 = ({onClick}) =><div>
 <div id="qcard_cont">
    <Header/>
    <Progression/>
@@ -81,7 +82,7 @@ onClick={border2}
   />
 </div>
 
-<div id="next" onClick= {Q3Next}>
+<div id="next" onClick= {q3Next}>
 <CustomButton
 text="Next Question"
 fontFamily="Gotu"

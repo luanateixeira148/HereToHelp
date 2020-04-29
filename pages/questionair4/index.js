@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState, useEffect} from 'react';
 import "./question4.css";
 import Heading from "../../comps/heading";
 import CustomButton from "../../comps/custombuttons";
@@ -7,32 +7,31 @@ import Progression from "../../comps/Progression";
 import Router from "next/router";
 
 
-var q3answered = false;
-function Q3Next(){
-   if(q3answered===false){
+var q4answered = false;
+function q4Next(){
+   if(q4answered===true){
       Router.push("/questionair5");
    } else {
-      alert("ANSWER!")
+      alert("ANSWER!");
    }
 }
+
 function border1(){
    document.getElementById("Ybutton").style.border = "3px solid #E3C9EA";
    document.getElementById("Nbutton").style.border = "none";
-   
+   q4answered = true;
 }
-
 
 function border2(){
    document.getElementById("Ybutton").style.border = "none";
    document.getElementById("Nbutton").style.border = "3px solid #E3C9EA";
-
+   q4answered = true;
 }
-
 
 
 const BrainIcon = require ("../../comps/image/brain.png")
 
-const Question4 = () =><div>
+const Question4 = ({onClick}) =><div>
 <div id="qcard_cont">
    <Header/>
    <Progression/>
@@ -83,7 +82,7 @@ onClick={border2}
   />
 </div>
 
-<div id="next" onClick= {Q3Next} >
+<div id="next" onClick= {q4Next} >
 <CustomButton
 text="Next Question"
 fontFamily="Gotu"

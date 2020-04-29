@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState, useEffect} from 'react';
 import "./question2.css";
 import Heading from "../../comps/heading";
 import CustomButton from "../../comps/custombuttons";
@@ -6,32 +6,30 @@ import Header from "../../comps/Header";
 import Progression from "../../comps/Progression";
 import Router from "next/router";
 
-var q3answered = false;
-function Q3Next(){
-   if(q3answered===false){
+var q2answered = false;
+function q2Next(){
+   if(q2answered===true){
       Router.push("/questionair3");
    } else {
-      alert("ANSWER!")
+      alert("ANSWER!");
    }
 }
+
 function border1(){
    document.getElementById("Ybutton").style.border = "3px solid #E3C9EA";
    document.getElementById("Nbutton").style.border = "none";
-   
+   q2answered = true;
 }
-
 
 function border2(){
    document.getElementById("Ybutton").style.border = "none";
    document.getElementById("Nbutton").style.border = "3px solid #E3C9EA";
-   q3answered=false;
+   q2answered = true;
 }
-
-
 
 const EatIcon = require ("../../comps/image/eat.png")
 
-const Question2 = () =><div>
+const Question2 = ({onClick}) =><div>
 <div id="qcard_cont">
 <Header/>
 <Progression/>
@@ -83,7 +81,7 @@ onClick={border2}
   />
 </div>
 
-<div id="next" onClick= {Q3Next}>
+<div id="next" onClick={q2Next}>
 <CustomButton
 text="Next Question"
 fontFamily="Gotu"
