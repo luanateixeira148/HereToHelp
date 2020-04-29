@@ -24,9 +24,9 @@ function Resources(){
     Router.push("/Resources");
 }
 
-// function AboutUs(){
-//     Router.push("");
-// }
+function AboutUs(){
+    Router.push("/aboutUs");
+}
 
 
 const Header = ({headerColor, onClick}) => 
@@ -64,7 +64,8 @@ const Header = ({headerColor, onClick}) =>
             <img src={MenuData.icon4} />
             <h6>{MenuData.item4}</h6>
         </div>
-        <div className='menuItem'>
+        <div className='menuItem'
+        onClick={AboutUs}>
             <img src={MenuData.icon5} />
             <h6>{MenuData.item5}</h6>
         </div>

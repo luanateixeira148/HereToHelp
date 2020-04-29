@@ -6,15 +6,6 @@ import Header from "../../comps/Header";
 import Progression from "../../comps/Progression";
 import Link from "next/link";
 
-var q3answered = false;
-function Q3Next(){
-   if(q3answered===false){
-      Router.push("/questionair2");
-   } else {
-      alert("ANSWER!")
-   }
-}
-
 
 const Sunny = require ("../../comps/about_us_img/sunny.jpg")
 const Pooneh = require ("../../comps/about_us_img/pooneh.jpg")
@@ -93,13 +84,13 @@ fontWeight= "lighter"
 <br/>
 <br/>
 
-<div id="next">
+<Link href= "./"><div id="next">
 <CustomButton
 text="Home Page"
 fontFamily="Gotu"
 fontSize={24}
 />
-</div>
+</div></Link>
 
 </div>
 </div>
