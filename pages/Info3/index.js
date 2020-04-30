@@ -1,5 +1,5 @@
 import React from "react";
-import "./Info3.css";
+import "./info3.css";
 import Header from '../../comps/Header';
 import CustomButton from '../../comps/custombuttons'
 import Link from "next/link";
