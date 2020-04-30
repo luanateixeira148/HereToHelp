@@ -32,62 +32,72 @@ const EatIcon = require ("../../comps/image/eat.png")
 
 const Question2 = ({onClick}) =><div>
 <div id="qcard_cont">
-<Header/>
+<Header headerColor="#5658AF" />
 <Progression/>
-<Heading id="qnumber"
-text="2. Eating habits"
-textAlign= "center"
-fontFamily= "Gotu"
+<h1>
+   <Heading id="qnumber"
+   text="2. Eating habits"
+   textAlign= "center"
+   fontFamily= "Gotu"
+   />
+</h1>
 
-/>
-
-<Heading 
-text="Overeating is characterized by episodes marked by feelings of lack of control, or guilt. " 
-fontSize = {18}
-textAlign= "left"
-fontFamily= "Lato"
-fontWeight= "lighter"
-
-/>
-
-<div id="sleep">
- <img id="image" src={EatIcon}/> 
+<div class="text">
+   <p>
+      <Heading 
+      text="Overeating is characterized by episodes marked by feelings of lack of control, or guilt. " 
+      fontSize = {18}
+      textAlign= "left"
+      fontFamily= "Lato"
+      fontWeight= "lighter"
+      />
+   </p>
 </div>
 
-
-<Heading 
-text="Have you experienced poor 
-appetite or overeating lately?" 
-fontSize = {20}
-color="#FFFFFF"
-textAlign= "left"
-fontFamily= "Lato"
-/>
-
-
-<div id="YNbuttons">
-<CustomButton id="Ybutton"
-onClick={border1}
-fontSize="30px"
-   width="141px"
-   text="YES"
-/>
-
-<CustomButton id="Nbutton"
-onClick={border2}
-   fontSize="30px"
-   width="141px" 
-  text="NO"
-  fontFamily="Lato"
-  />
+<div id="eat">
+   <img id="image" src={EatIcon}/> 
 </div>
 
-<div id="next" onClick={q2Next}>
-<CustomButton
-text="Next Question"
-fontFamily="Gotu"
-fontSize={24}
-/>
+<div class="text2">
+   <p className="bold">
+      <Heading 
+      text="Have you experienced poor 
+      appetite or overeating lately?" 
+      fontSize = {20}
+      color="#FFFFFF"
+      textAlign= "left"
+      fontFamily= "Lato"
+      />
+   </p>
+</div>
+
+<div className="quiz_buttons_box" >
+   <div class="YNbuttons">
+      <CustomButton id="Ybutton"
+         onClick={border1}
+         fontSize="30px"
+         width="143px"
+         text="YES"
+         fontFamily="Gotu"
+      />
+
+      <CustomButton id="Nbutton"
+         onClick={border2}
+         fontSize="30px"
+         width="143px" 
+         text="NO"
+         fontFamily="Gotu"
+      />
+   </div>
+
+   <div id="next" onClick= {q2Next}>
+      <CustomButton
+         width="300px"
+         text="Next Question"
+         fontFamily="Gotu"
+         fontSize={24}
+      />
+   </div>
 </div>
 
 </div>

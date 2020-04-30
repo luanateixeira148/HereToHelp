@@ -32,66 +32,76 @@ const BrainIcon = require ("../../comps/image/brain.png")
 
 const Question4 = ({onClick}) =><div>
 <div id="qcard_cont">
-   <Header/>
+   <Header headerColor="#5658AF" />
    <Progression/>
+<h1>
 <Heading id="qnumber"
-text="4. Concentration"
-textAlign= "center"
-fontFamily= "Gotu"
-
+   text="4. Concentration"
+   textAlign= "center"
+   fontFamily= "Gotu"
+   fontSize = {36}
 />
+</h1>
 
-<Heading 
-text="Researchers have suggested that the ability to take in information efficiently is weakened in individuals who are depressed." 
-fontSize = {18}
-textAlign= "left"
-fontFamily= "Lato"
-fontWeight= "lighter"
-
-/>
-<div id="sleep">
- <img src={BrainIcon}/> 
+<div class="text">
+   <p>
+      <Heading 
+      text="Researchers suggest that the ability to take in information is weakened in individuals who are depressed." 
+      fontSize = {18}
+      textAlign= "left"
+      fontFamily= "Lato"
+      fontWeight= "lighter"
+      />
+   </p>
 </div>
 
-
-
-<Heading 
-text="Are you experiencing memory loss or difficulty concentrating?" 
-fontSize = {20}
-color="#FFFFFF"
-textAlign= "left"
-fontFamily= "Lato"
-/>
-
-
-<div id="YNbuttons">
-<CustomButton id="Ybutton"
-onClick={border1}
-fontSize="30px"
-   width="141px"
-   text="YES"
-/>
-
-<CustomButton id="Nbutton"
-onClick={border2}
-   fontSize="30px"
-   width="141px" 
-  text="NO"
-  fontFamily="Lato"
-  />
+<div id="brain">
+   <img src={BrainIcon}/> 
 </div>
 
-<div id="next" onClick= {q4Next} >
-<CustomButton
-text="Next Question"
-fontFamily="Gotu"
-fontSize={24}
-/>
+<div class="text2">
+   <p className="bold">
+      <Heading 
+      text="Are you experiencing memory loss or difficulty concentrating?" 
+      fontSize = {20}
+      color="#FFFFFF"
+      textAlign= "left"
+      fontFamily= "Lato"
+      />
+   </p>
+</div>
+
+<div className="quiz_buttons_box" >
+   <div id="YNbuttons">
+      <CustomButton id="Ybutton"
+         onClick={border1}
+         fontSize="30px"
+         width="143px"
+         text="YES"
+         fontFamily="Gotu"
+      />
+
+      <CustomButton id="Nbutton"
+         onClick={border2}
+         fontSize="30px"
+         width="143px" 
+         text="NO"
+         fontFamily="Gotu"
+      />
+   </div>
+
+   <div id="next" onClick= {q4Next} >
+   <CustomButton
+         width="300px"
+         text="Next Question"
+         fontFamily="Gotu"
+         fontSize={24}
+      />
+   </div>
 </div>
 
 </div>
 </div>
-
 
 
 

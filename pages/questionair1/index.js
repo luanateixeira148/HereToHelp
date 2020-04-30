@@ -32,68 +32,76 @@ const SleepIcon = require ("../../comps/image/sleep.png")
 
 const Question1 = ({onClick}) => <div>
 <div id="qcard_cont">
-<Header/>
-<Progression/>
-<Heading id="qnumber"
-text="1.Sleeping habits"
-textAlign= "center"
-fontFamily= "Gotu"
-/>
+   <Header headerColor="#5658AF" />
+   <Progression/>
+<h1>
+   <Heading id="qnumber"
+   text="1.Sleeping habits"
+   textAlign= "center"
+   fontFamily= "Gotu"
+   fontSize = {36}
+   />
+</h1>
 
 <div class="text">
-<Heading 
-text="Most healthy adults need between 7 to 9 hours of sleep per night to function at their best" 
-fontSize = {18}
-textAlign= "left"
-fontFamily= "Lato"
-fontWeight= "lighter"
+   <p>
+      <Heading 
+      text="Most healthy adults need between 7 to 9 hours of sleep per night to function at their best." 
+      fontSize = {18}
+      textAlign= "left"
+      fontFamily= "Lato"
+      fontWeight= "lighter"
+      />
+   </p>
+</div>
 
-/></div>
 <div id="sleep">
- <img src={SleepIcon}/> 
+   <img src={SleepIcon}/> 
 </div>
 
-
-<div class="text">
-<Heading
-text="Do you have problems falling asleep, staying asleep or sleeping too much?" 
-fontSize = {20}
-color="#FFFFFF"
-textAlign= "left"
-fontFamily= "Lato"
-/></div>
-
-
-<div class="YNbuttons">
-
-<CustomButton id="Ybutton"
-onClick={border1}
-fontSize="30px"
-   width="141px"
-   text="YES"
-/>
-
-<CustomButton id="Nbutton"
-onClick={border2}
-   fontSize="30px"
-   width="141px" 
-  text="NO"
-  fontFamily="Lato"
-  />
+<div class="text2">
+   <p className="bold">
+      <Heading
+      text="Do you have problems falling asleep, staying asleep or sleeping too much?" 
+      fontSize = {20}
+      color="#FFFFFF"
+      textAlign= "left"
+      fontFamily= "Lato"
+      />
+   </p>
 </div>
 
-<div id="next" onClick= {q1Next}>
-<CustomButton
-text="Next Question"
-fontFamily="Gotu"
-fontSize={24}
-/>
+<div className="quiz_buttons_box" >
+   <div class="YNbuttons">
+      <CustomButton id="Ybutton"
+         onClick={border1}
+         fontSize="30px"
+         width="143px"
+         text="YES"
+         fontFamily="Gotu"
+      />
+
+      <CustomButton id="Nbutton"
+         onClick={border2}
+         fontSize="30px"
+         width="143px" 
+         text="NO"
+         fontFamily="Gotu"
+      />
+   </div>
+
+   <div id="next" onClick= {q1Next}>
+      <CustomButton
+         width="300px"
+         text="Next Question"
+         fontFamily="Gotu"
+         fontSize={24}
+      />
+   </div>
 </div>
 
 </div>
 </div>
-
-
 
 
 export default Question1;

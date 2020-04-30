@@ -1,27 +1,40 @@
 #qcard_cont{
     width:360px;
+    height: 640px;
     background-color: #5658AF;
-
-
 }
 
-#YNbuttons{
+.YNbuttons{
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
 #next{
-    margin-left: 22px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-#sleep img{
- 
-    height:165px;
-    width:165px;
+.quiz_buttons_box {
+    width: 360px;
+    height: 161px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-#sleep{
+#smiley img {
+    margin-top: 10px;
+     width: auto;
+     height: 190px;
+}
+
+#smiley {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
