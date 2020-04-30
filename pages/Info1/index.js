@@ -17,11 +17,11 @@ const Info1 = ({ img, title, text, backgroundColor }) => <div
         </div>
         <div className="app1">
             <div className="title1">
-                {title}
+                <h1>{title}</h1>
             </div>
             <div className="content1">
                 <div className="content_text1">
-                    {text}
+                    <p>{text}</p>
                 </div>
                 <div className="content_img1">
                     <img src={img} />

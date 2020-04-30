@@ -17,24 +17,24 @@ style={{ backgroundColor: backgroundColor }}
     </div>
     <div className="app3">
     <div className="title3">
-        {title}
+        <h1>{title}</h1>
     </div>
     <div className="content3">
         <div className="content_text3">
-            {text}
+            <p>{text}</p>
         </div>
         <div className="content_img3">
             <img src={img} />
         </div>
         </div>
         </div>
-        <Link href= "/Info4"><footer>
+        <Link href= "/Info4">
+        <footer>
             <CustomButton text="Next" fontFamily="'Gotu', sans-serif"/>
-        </footer></Link>
+        </footer>
+        </Link>
     
     </div>
-
-
 </div>;
 
 Info3.defaultProps = {

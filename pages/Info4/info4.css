@@ -4,10 +4,17 @@
     justify-content: center;
 }
 
-.body4 {
+/* .body4 {
     margin: 0;
     width: 100vw;
     height: 100vh;
+    flex-direction: column;
+} */
+
+.body4 {
+    margin: 0;
+    width: 360px;
+    height: 640px;
     flex-direction: column;
 }
 
@@ -25,6 +32,9 @@
     flex: 1;
     font-family: 'Lato', sans-serif;
     padding: 0px 40px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
 }
 
 .background4 {
@@ -74,3 +84,22 @@ footer {
     width: 157px;
     height: 157px;
 } */
+
+/* TYPOGRAPHY */
+h1 {
+    font-family: 'Gotu', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #FFEDFF;
+    text-align: center;
+    padding: 0;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+}

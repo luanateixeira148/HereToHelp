@@ -17,14 +17,12 @@ const Info4 = ({ img, text2, title, text, backgroundColor }) => <div
         </div>
         <div className="app4">
             <div className="title4">
-                {title}
+                <h1>{title}</h1>
             </div>
             <div className="content4">
                 <div className="content_text4">
-                    {text}
-                    <br/>
-                    <br/>
-                    {text2}
+                    <p>{text}</p>
+                    <p>{text2}</p>
                 </div>
                 {/* <div className="content_img">
             <img src={img} />

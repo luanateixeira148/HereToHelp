@@ -17,11 +17,11 @@ style={{ backgroundColor: backgroundColor }}
     </div> 
     <div className="app2">
     <div className="title2">
-        {title}
+        <h1>{title}</h1>
     </div>
     <div className="content2">
         <div className="content_text2">
-            {text}
+            <p>{text}</p>
         </div>
         <div className="content_img2">
             <img src={img} />

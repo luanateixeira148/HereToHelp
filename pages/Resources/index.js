@@ -29,9 +29,11 @@ const ResourcePage = ({}) =>
             <p>https://familysmart.ca/</p>
         </div>
     </div>
-    <Link href= "./"><div className='resorcesButton'>
+    <Link href= "./">
+    <div className='resorcesButton'>
         <CustomButton text='Home' />
-    </div></Link>
+    </div>
+    </Link>
 </div>
 
 export default ResourcePage;

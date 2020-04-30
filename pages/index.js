@@ -12,24 +12,25 @@ style={{ backgroundColor: backgroundColor }}
 <div className="background" >
 <div className="app">
             <div className="title">
-                {title1}
-                <br/>
-                {title2}
+                <h4 className="hometitle1">{title1}</h4>
+                <h4 className="hometitle2">{title2}</h4>
             </div>
             <div className="content">
                 <div className="content_img">
                     <img src={img} />
                 </div>
                 <div className="content_text">
-                    {text1}
+                    <h4 className="hometitle3">{text1}
                     <br/>
-                    {text2}
+                    {text2}</h4>
                 </div>
             </div>
         </div>
-    <Link href="/Info1"><footer>
+    <Link href="/Info1">
+        <footer>
             <CustomButton text="Let's get started" fontFamily="'Gotu', sans-serif"/>
-        </footer></Link>
+        </footer>
+    </Link>
 </div>
 </div>
 
@@ -41,3 +42,10 @@ Index.defaultProps = {
     text2: "the help you need.",
 }
 export default Index;
+
+
+<Link href= "./">
+<div className='resorcesButton'>
+    <CustomButton text='Home' />
+</div>
+</Link>
