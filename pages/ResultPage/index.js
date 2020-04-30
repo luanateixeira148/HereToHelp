@@ -7,13 +7,20 @@ import CustomButton from '../../comps/custombuttons';
 import Link from "next/link";
 
 const ResultPage = ({}) => 
-<div>
+<div className="result_box">
     <Header />
     <Result />
     <ResultCard />
-    <Link href= "/Resources"><div className='resultButton'>
-        <CustomButton text="Resources" />
-    </div></Link>
+    <Link href= "/Resources">
+        <div className='resultButton'>
+        <CustomButton          
+            width="300px"
+            text="Resources"
+            fontFamily="Gotu"
+            fontSize={24}
+             />
+        </div>
+    </Link>
 </div>
 
 ResultPage.defaultPprops = {

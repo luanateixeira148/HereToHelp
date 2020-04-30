@@ -24,11 +24,19 @@ p {
 .rcTitle {
     display: flex;
     flex-direction: row;
+    /* align-items: center;
+    justify-content: center; */
     align-items: center;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: 30px;
     margin-right: 30px;
+}
+
+#rcTitle2 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
 }
 
 .rcImage  {

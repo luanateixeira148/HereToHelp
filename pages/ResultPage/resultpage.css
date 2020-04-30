@@ -6,3 +6,8 @@
     justify-content: center;
     background-color: #705BB4;
 }
+
+.result_box {
+    /* position: absolute; */
+    margin: 0;
+}

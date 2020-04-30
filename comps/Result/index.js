@@ -4,7 +4,7 @@ import { ResultData } from './data';
 
 const Result = () =>
 <div className='resultbox'>
-    <h1>Result</h1>
+    <h1 id="result_title">Result</h1>
     <div className='measure'>
         <img className='measureimg' />
     </div>
