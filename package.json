@@ -1,6 +1,6 @@
 {
   "name": "heretohelp",
-  "version": "12.16.1",
+  "version": "1.0.0",
   "description": "MDIA2109 and MDIA2106 final project",
   "main": "info.js",
   "scripts": {
