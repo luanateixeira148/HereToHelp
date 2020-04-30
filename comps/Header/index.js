@@ -41,31 +41,26 @@ const Header = ({headerColor, onClick}) =>
     </div>
 
     <div className='menu_box'>
-        <div className='menuItem' onClick={openHeader} id='backIcon'>
-            <img src={MenuData.icon6} />
+        <div className='menu_icon_box' onClick={openHeader}>
+            <img id='menu_icon' src={menuIcon} />
         </div>
-        <div className='menuItem'
-        onClick={Home}>
+        <div className='menuItem' onClick={Home}>
             <img src={MenuData.icon1} />
             <h6>{MenuData.item1}</h6>
         </div>
-        <div className='menuItem'
-        onClick={Tutorial}>
+        <div className='menuItem' onClick={Tutorial}>
             <img src={MenuData.icon2} />
             <h6>{MenuData.item2}</h6>
         </div>
-        <div className='menuItem'
-        onClick={Quiz}>
+        <div className='menuItem' onClick={Quiz}>
             <img src={MenuData.icon3} />
             <h6>{MenuData.item3}</h6>
         </div>
-        <div className='menuItem'
-        onClick={Resources}>
+        <div className='menuItem' onClick={Resources}>
             <img src={MenuData.icon4} />
             <h6>{MenuData.item4}</h6>
         </div>
-        <div className='menuItem'
-        onClick={AboutUs}>
+        <div className='menuItem' onClick={AboutUs}>
             <img src={MenuData.icon5} />
             <h6>{MenuData.item5}</h6>
         </div>

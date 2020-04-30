@@ -10,7 +10,7 @@
 .menu_icon_box {
     height: 20px;
     width: 32px;
-    position: relative;
+    position: absolute;
     left: 23.5px;
     top: 37px;
 }
