@@ -33,7 +33,7 @@ const SleepIcon = require ("../../comps/image/sleep.png")
 const Question1 = ({onClick}) => <div>
 <div id="qcard_cont">
    <Header headerColor="#5658AF" />
-   <Progression/>
+   <Progression progress={1}/>
 <h1>
    <Heading id="qnumber"
    text="1.Sleeping habits"

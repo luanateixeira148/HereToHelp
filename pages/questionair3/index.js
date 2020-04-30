@@ -33,7 +33,7 @@ const SpiralIcon = require ("../../comps/image/spiral.png")
 const Question3 = ({onClick}) =><div>
 <div id="qcard_cont">
    <Header headerColor="#5658AF" />
-   <Progression/>
+   <Progression  progress={3}/>
 <h1>
    <Heading id="qnumber"
    text="3.Energy Level"
