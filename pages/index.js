@@ -10,24 +10,25 @@ style={{ backgroundColor: backgroundColor }}
     className="body"
 >
 <div className="background" >
-<div className="app">
-            <div className="title">
-                <h4 className="hometitle1">{title1}</h4>
-                <h4 className="hometitle2">{title2}</h4>
+    <div className="app">
+        <div className="title">
+            <h4 className="hometitle1">{title1}</h4>
+            <h4 className="hometitle2">{title2}</h4>
+        </div>
+        <div className="content">
+            <div className="content_img">
+                <img src={img} />
             </div>
-            <div className="content">
-                <div className="content_img">
-                    <img src={img} />
-                </div>
-                <div className="content_text">
-                    <h4 className="hometitle3">{text1}
-                    <br/>
-                    {text2}</h4>
-                </div>
+            <div className="content_text">
+                <h4 className="hometitle3">{text1}
+                <br/>
+                {text2}
+                </h4>
             </div>
         </div>
+    </div>
     <Link href="/Info1">
-        <footer>
+        <footer id="footer_home">
             <CustomButton text="Let's get started" fontFamily="'Gotu', sans-serif"/>
         </footer>
     </Link>
