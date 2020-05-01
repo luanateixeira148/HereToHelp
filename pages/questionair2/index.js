@@ -33,7 +33,7 @@ const EatIcon = require ("../../comps/image/eat.png")
 const Question2 = ({onClick}) =><div>
 <div id="qcard_cont">
 <Header headerColor="#5658AF" />
-<Progression/>
+<Progression  progress={2}/>
 <h1>
    <Heading id="qnumber"
    text="2. Eating habits"

@@ -33,7 +33,7 @@ const SmileyIcon = require ("../../comps/image/smiley.png")
 const Question5 = ({onClick}) =><div>
 <div id="qcard_cont">
    <Header headerColor="#5658AF" />
-   <Progression/>
+   <Progression  progress={5}/>
 <h1>
    <Heading id="qnumber"
    text="5. Self harm"
