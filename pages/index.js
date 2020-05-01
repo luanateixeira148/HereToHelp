@@ -26,12 +26,12 @@ style={{ backgroundColor: backgroundColor }}
                 </h4>
             </div>
         </div>
+        <Link href="/Info1">
+            <footer id="footer_home">
+                <CustomButton text="Let's get started" fontFamily="'Gotu', sans-serif"/>
+            </footer>
+        </Link>
     </div>
-    <Link href="/Info1">
-        <footer id="footer_home">
-            <CustomButton text="Let's get started" fontFamily="'Gotu', sans-serif"/>
-        </footer>
-    </Link>
 </div>
 </div>
 

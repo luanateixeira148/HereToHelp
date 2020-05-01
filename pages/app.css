@@ -14,6 +14,8 @@
 
 .app {
     flex-direction: column;
+    height: 640px;
+    width: 360px;
 
     /* flex: 11; */
     /* margin: 55px; */
@@ -47,10 +49,10 @@
     /* flex: 4; */
 }
 
-.content_img {
+/* .content_img {
     flex: 3;
-    /* margin:10px 0px 0px -110px!important; */
-}
+    margin:10px 0px 0px -110px!important;
+} */
 
 .content_img img {
     width: 296px;
@@ -69,13 +71,19 @@
     /* margin:0px 0px 0px 100px!important; */
 }
 
-.background {
+/* .background {
     margin: 0;
     flex: 11;
     background-image: url(/backgroundOne.svg)!important;
     background-repeat: no-repeat;
     background-size: cover;
     flex-direction: column;
+} */
+
+.background {
+    background-image: url(/backgroundOne.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #footer_home {
