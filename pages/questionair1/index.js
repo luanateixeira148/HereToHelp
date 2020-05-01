@@ -31,44 +31,48 @@ function border2(){
 const SleepIcon = require ("../../comps/image/sleep.png")
 
 const Question1 = ({onClick}) => <div>
-<div id="qcard_cont">
+<div className="qcard_cont">
    <Header headerColor="#5658AF" />
    <Progression progress={1}/>
-<h1>
-   <Heading id="qnumber"
+   <h1 className="quizc_title">
+      1. Sleeping habits
+   </h1>
+   {/* <Heading id="qnumber"
    text="1.Sleeping habits"
    textAlign= "center"
    fontFamily= "Gotu"
    fontSize = {36}
-   />
-</h1>
+   /> */}
 
-<div class="text">
+
+<div class="qc_text">
    <p>
-      <Heading 
+      Most healthy adults need between 7 to 9 hours of sleep per night to function at their best.
+   </p>
+   {/* <Heading 
       text="Most healthy adults need between 7 to 9 hours of sleep per night to function at their best." 
       fontSize = {18}
       textAlign= "left"
       fontFamily= "Lato"
       fontWeight= "lighter"
-      />
-   </p>
+      /> */}
 </div>
 
 <div id="sleep">
    <img src={SleepIcon}/> 
 </div>
 
-<div class="text2">
+<div class="qc_question">
    <p className="bold">
-      <Heading
+      Do you have problems falling asleep, staying asleep or sleeping too much?
+   </p>
+   {/* <Heading
       text="Do you have problems falling asleep, staying asleep or sleeping too much?" 
       fontSize = {20}
       color="#FFFFFF"
       textAlign= "left"
       fontFamily= "Lato"
-      />
-   </p>
+      /> */}
 </div>
 
 <div className="quiz_buttons_box" >
