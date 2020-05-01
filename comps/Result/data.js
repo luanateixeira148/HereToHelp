@@ -1,7 +1,10 @@
+const meter1 = require('../graphics/meter.svg');
+
 export const ResultData = {
     // level1animation: ,
     level1title:"Mild Depression",
     level1text:"You are not showing many signs of depression. If you are feeling down, it is probably just temporary. Try adjusting your routine to make some time to take care of yourself. If the symptoms persist, we recommend talking to a professional.",
+    level1meter:meter1,
 
     level2title:"Mild Depression",
     level2text:"You are not showing many signs of depression. If you are feeling down, it is probably just temporary. Try adjusting your routine to make some time to take care of yourself. If the symptoms persist, we recommend talking to a professional.",
@@ -14,6 +17,4 @@ export const ResultData = {
 
     level5title:"Severe Depression",
     level5text:"CRISIS CENTER BC <br> 1-800-784-2433",
-
-
 }

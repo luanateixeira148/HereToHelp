@@ -6,7 +6,7 @@ const Result = () =>
 <div className='resultbox'>
     <h1 id="result_title">Result</h1>
     <div className='measure'>
-        <img className='measureimg' />
+        <img className='measureimg' src={ResultData.level1meter} />
     </div>
     <h2>Mild Depression</h2>
     <div className='resulttext'>
