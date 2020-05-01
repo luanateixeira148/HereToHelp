@@ -1,6 +1,6 @@
 .menu_box {
     width: 200px;
-    height: 640px;
+    height: fit-content;
     padding-top: 100px;
     background-color: #3A363E;
     opacity: 90%;
