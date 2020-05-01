@@ -1,7 +1,32 @@
-#qcard_cont{
+.qcard_cont{
     width:360px;
     height: 640px;
     background-color: #5658AF;
+}
+
+.qc_text{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#smiley img {
+    margin-top: 10px;
+     width: auto;
+     height: 190px;
+}
+
+#smiley {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.qc_question {
+    height: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 0;
 }
 
 .YNbuttons{
@@ -27,16 +52,31 @@
     justify-content: center;
 }
 
-#smiley img {
-    margin-top: 10px;
-     width: auto;
-     height: 190px;
+/* TYPOGRAPHY */
+h1 {
+    font-family: 'Gotu', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #FFEDFF;
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
-#smiley {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+    margin: 0px;
+    padding-top: 0px;
 }
 
+.bold {
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}

@@ -34,41 +34,44 @@ const Question2 = ({onClick}) =><div>
 <div id="qcard_cont">
 <Header headerColor="#5658AF" />
 <Progression  progress={2}/>
-<h1>
-   <Heading id="qnumber"
+<h1 className="quizc_title">
+   2. Eating habits
+</h1>
+{/* <Heading id="qnumber"
    text="2. Eating habits"
    textAlign= "center"
    fontFamily= "Gotu"
-   />
-</h1>
+   /> */}
 
-<div class="text">
+<div className="qc_text">
    <p>
-      <Heading 
-      text="Overeating is characterized by episodes marked by feelings of lack of control, or guilt. " 
+   Overeating is characterized by episodes marked by feelings of lack of control, or guilt.
+   </p>
+   {/* <Heading 
+      text="Overeating is characterized by episodes marked by feelings of lack of control, or guilt." 
       fontSize = {18}
       textAlign= "left"
       fontFamily= "Lato"
       fontWeight= "lighter"
-      />
-   </p>
+      /> */}
 </div>
 
 <div id="eat">
    <img id="image" src={EatIcon}/> 
 </div>
 
-<div class="text2">
+<div className="qc_question">
    <p className="bold">
-      <Heading 
+   Have you experienced poor appetite or overeating lately?
+   </p>
+   {/* <Heading 
       text="Have you experienced poor 
       appetite or overeating lately?" 
       fontSize = {20}
       color="#FFFFFF"
       textAlign= "left"
-      fontFamily= "Lato"
-      />
-   </p>
+      fontFamily= "Lato"      
+      /> */}
 </div>
 
 <div className="quiz_buttons_box" >

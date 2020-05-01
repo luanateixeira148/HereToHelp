@@ -3,6 +3,35 @@
     height: 640px;
     background-color: #5658AF;
  }
+
+ .quizc_title {
+    margin-top: 16px;
+    margin-bottom: 4px;
+}
+
+.qc_text{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#eat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#eat img{
+    margin-top: 10px;
+    width: auto;
+    height: 125px;
+}
+
+.qc_question {
+    height: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 0;
+}
  
  #YNbuttons{
     width: 100%;
@@ -26,31 +55,6 @@
     align-items: center;
     justify-content: center;
 }
- 
- #eat{
-     display: flex;
-     align-items: center;
-     justify-content: center;
- }
- 
- 
- #eat img{
-     margin-top: 10px;
-     width: auto;
-     height: 125px;
- }
-
- .text{
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-.text2 {
-    height: 80px;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-bottom: 0;
-}
 
 /* TYPOGRAPHY */
 h1 {
@@ -61,8 +65,7 @@ h1 {
     color: #FFEDFF;
     text-align: center;
     padding: 0;
-    margin-top: 16px;
-    margin-bottom: 4px;
+    margin: 0;
 }
 
 p {
@@ -71,12 +74,13 @@ p {
     font-weight: 300;
     font-size: 18px;
     color: white;
-    margin: 0;
+    margin: 0px;
     padding-top: 0px;
 }
 
 .bold {
     font-weight: 400;
+    font-size: 20px;
     margin-top: 15px;
     margin-bottom: 5px;
 }

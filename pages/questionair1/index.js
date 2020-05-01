@@ -44,8 +44,7 @@ const Question1 = ({onClick}) => <div>
    fontSize = {36}
    /> */}
 
-
-<div class="qc_text">
+<div className="qc_text">
    <p>
       Most healthy adults need between 7 to 9 hours of sleep per night to function at their best.
    </p>
@@ -62,7 +61,7 @@ const Question1 = ({onClick}) => <div>
    <img src={SleepIcon}/> 
 </div>
 
-<div class="qc_question">
+<div className="qc_question">
    <p className="bold">
       Do you have problems falling asleep, staying asleep or sleeping too much?
    </p>

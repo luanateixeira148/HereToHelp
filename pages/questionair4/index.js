@@ -34,41 +34,44 @@ const Question4 = ({onClick}) =><div>
 <div id="qcard_cont">
    <Header headerColor="#5658AF" />
    <Progression  progress={4}/>
-<h1>
-<Heading id="qnumber"
+   <h1 className="quizc_title">
+      4. Concentration
+   </h1>
+   {/* <Heading id="qnumber"
    text="4. Concentration"
    textAlign= "center"
    fontFamily= "Gotu"
    fontSize = {36}
-/>
-</h1>
+/> */}
 
-<div class="text">
+<div className="qc_text">
    <p>
-      <Heading 
+      Researchers suggest that the ability to take in information is weakened in individuals who are depressed.
+   </p>
+   {/* <Heading 
       text="Researchers suggest that the ability to take in information is weakened in individuals who are depressed." 
       fontSize = {18}
       textAlign= "left"
       fontFamily= "Lato"
       fontWeight= "lighter"
-      />
-   </p>
+      /> */}
 </div>
 
 <div id="brain">
    <img src={BrainIcon}/> 
 </div>
 
-<div class="text2">
+<div className="qc_question">
    <p className="bold">
-      <Heading 
+      Are you experiencing memory loss or difficulty concentrating?
+   </p>
+   {/* <Heading 
       text="Are you experiencing memory loss or difficulty concentrating?" 
       fontSize = {20}
       color="#FFFFFF"
       textAlign= "left"
       fontFamily= "Lato"
-      />
-   </p>
+      /> */}
 </div>
 
 <div className="quiz_buttons_box" >

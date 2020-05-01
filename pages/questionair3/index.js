@@ -31,44 +31,47 @@ function border2(){
 const SpiralIcon = require ("../../comps/image/spiral.png")
 
 const Question3 = ({onClick}) =><div>
-<div id="qcard_cont">
+<div className="qcard_cont">
    <Header headerColor="#5658AF" />
    <Progression  progress={3}/>
-<h1>
-   <Heading id="qnumber"
+   <h1 className="quizc_title">
+      3. Energy Level
+   </h1>
+{/* <Heading id="qnumber"
    text="3.Energy Level"
    textAlign= "center"
    fontFamily= "Gotu"
    fontSize = {36}
-   />
-</h1>
+   /> */}
 
-<div class="text">
+<div className="qc_text">
    <p>
-      <Heading 
+      According to studies, fatigue occurs in over 90% of patients with depressive disorder.
+   </p>
+   {/* <Heading 
       text="According to studies, fatigue occurs in over 90% of patients with depressive disorder." 
       fontSize = {18}
       textAlign= "left"
       fontFamily= "Lato"
       fontWeight= "lighter"
-      />
-   </p>
+      /> */}
 </div>
 
 <div id="energy">
    <img src={SpiralIcon}/> 
 </div>
 
-<div class="text2">
+<div className="qc_question">
    <p className="bold">
-      <Heading 
+      Have you been experiencing extreme fatigue and/or loss of energy lately?
+   </p>
+{/* <Heading 
       text="Have you been experiencing extreme fatigue and/or loss of energy lately?" 
       fontSize = {20}
       color="#FFFFFF"
       textAlign= "left"
       fontFamily= "Lato"
-      />
-</p>
+      /> */}
 </div>
 
 <div className="quiz_buttons_box" >
