@@ -134,7 +134,7 @@
 
 
 /* TYPOGRAPHY */
-/* 
+
 h1 {
     font-family: 'Gotu', sans-serif;
     font-style: normal;
@@ -157,6 +157,17 @@ h2 {
     margin: 0;
 }
 
+
+h5 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    margin: 0px;
+    padding-top: 0px;
+}
+
 p {
     font-family: 'Lato', sans-serif;
     font-style: normal;
@@ -173,4 +184,3 @@ p {
     margin-bottom: 5px;
 }
 
-*/

@@ -4,52 +4,8 @@
     height: auto;
 }
 
-h1 {
-    font-family: 'Gotu', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40pt;
-    color: #FFEDFF;
-    text-align: center;
-    padding: 0;
-}
-
-h2 {
-    font-family: 'Gotu', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 26pt;
-    color: #FFEDFF;
-    text-align: center;
-}
-
-h3 {
-    font-family: 'Lato', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    color: #FFEDFF;
-    text-align: left;
-}
-
-h4 {
-    font-family: 'Lato', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    color: #FFEDFF;
-}
-
-p {
-    font-family: 'Lato', sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18;
-    color: white;
-}
-
-#resouces_box {
-    position: relative;
+#resources_tile {
+    padding: 15px 15px;
 }
 
 #crisiscenter_box {
@@ -62,8 +18,7 @@ p {
 }
 
 #resources_info_box {
-    padding-right: 30px;
-    padding-left: 30px;
+    padding: 30px;
 }
 
 .resorcesButton {
@@ -73,4 +28,63 @@ p {
     align-items: center;
     justify-content: center;
     background-color: #705BB4;
+}
+
+#res_title {
+    margin-top: ;
+}
+
+#res_link {
+    margin-top: ;
+    margin-bottom: ;
+}
+
+/* TYPOGRAPHY */
+
+h1 {
+    font-family: 'Gotu', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #FFEDFF;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+} 
+
+h2 {
+    font-family: 'Gotu', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    color: #FFEDFF;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+h5 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    margin: 0px;
+    padding-top: 0px;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+    margin: 0px;
+    padding-top: 0px;
+}
+
+.bold {
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 5px;
 }

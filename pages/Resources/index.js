@@ -8,30 +8,34 @@ const ResourcePage = ({}) =>
 <div id='resources_container'>
     <Header />
     <div id='resources_box'>
-        <h1>Resources</h1>
+        <h1 id="resources_tile">Resources</h1>
         <div id='crisiscenter_box'>
-            <h3>CRISIS CENTER BC <br/> 1-800-784-2433</h3>
+            <h5>CRISIS CENTER BC <br/> 1-800-784-2433</h5>
         </div>
         <div id='resources_info_box'>
-            <h4>Mood Disorders Society of Canada</h4>
-            <p>http://depressionhurts.ca/en/</p>
+            <p className="bold" id="res_title">Mood Disorders Society of Canada</p>
+            <p id="res_link">http://depressionhurts.ca/en/</p>
             <br/>
-            <h4>Mental Health and Substance Use <br/>
-                British Columbia</h4>
-            <p>https://www.heretohelp.bc.ca/</p>
+            <p className="bold" id="res_title">Mental Health and Substance Use <br/>
+                British Columbia</p>
+            <p id="res_link">https://www.heretohelp.bc.ca/</p>
             <br/>
-            <h4>Canadian Mental Health <br/>
-                Association</h4>
-            <p>https://cmha.bc.ca/</p>
+            <p className="bold" id="res_title">Canadian Mental Health <br/>
+                Association</p>
+            <p id="res_link">https://cmha.bc.ca/</p>
             <br/>
-            <h4>Institute of Families for Child <br/>
-                and Youth Mental Health</h4>
-            <p>https://familysmart.ca/</p>
+            <p className="bold" id="res_title">Institute of Families for Child <br/>
+                and Youth Mental Health</p>
+            <p id="res_link">https://familysmart.ca/</p>
         </div>
     </div>
     <Link href= "./">
     <div className='resorcesButton'>
-        <CustomButton text='Home' />
+        <CustomButton          
+         width="300px"
+         text="Home"
+         fontFamily="Gotu"
+         fontSize={24} />
     </div>
     </Link>
 </div>
