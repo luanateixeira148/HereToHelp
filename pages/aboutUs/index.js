@@ -3,7 +3,6 @@ import "./aboutUs.css";
 import Heading from "../../comps/heading";
 import CustomButton from "../../comps/custombuttons";
 import Header from "../../comps/Header";
-import Progression from "../../comps/Progression";
 import Link from "next/link";
 
 
@@ -98,10 +97,9 @@ fontWeight= "lighter"
 </div>
 
 <br/>
-<br/>
 
 <Link href= "./">
-    <div className='resorcesButton'>
+    <div className='aboutusButton'>
             <CustomButton
             text="Home Page"
             fontFamily="Gotu"

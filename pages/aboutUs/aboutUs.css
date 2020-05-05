@@ -1,7 +1,8 @@
 #about_cont{
     height: 100%;
     width:360px;
-    background-color: #5658AF;
+    /* background-color: #5658AF; */
+    background-image: url(/resourcesbg.svg)!important;
 
 }
 
@@ -44,9 +45,10 @@
     padding-top: 20px;
 }
 
-.resorcesButton {
+.aboutusButton {
+    margin-bottom: 20px;
     width: 360px;
-    height: 102px;
+    /* height: 102px; */
     display: flex;
     align-items: center;
     justify-content: center;

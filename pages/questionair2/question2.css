@@ -1,8 +1,9 @@
 #qcard_cont{
     width:360px;
     height: 640px;
-    background-color: #5658AF;
- }
+    background-image: url(/qcardbg.svg)!important;
+}
+ 
 
  .quizc_title {
     margin-top: 16px;

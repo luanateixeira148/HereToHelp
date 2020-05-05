@@ -1,7 +1,11 @@
 #resources_container {
-    background-color: #6654AD;
+    /* background-color: #6654AD; */
+    background-image: url(/resourcesbg.svg)!important;
     width: 360px;
     height: auto;
+    /* background-repeat: no-repeat;
+    background-size: contain;
+    flex-direction: column; */
 }
 
 #resources_tile {
@@ -9,7 +13,7 @@
 }
 
 #crisiscenter_box {
-    background-color: rgba(215, 191, 226, 0.2);
+    /* background-color: rgba(215, 191, 226, 0.2); */
     height: 86px;
     width: 360px;
     display: flex;
@@ -27,7 +31,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #705BB4;
+    /* background-color: #705BB4; */
 }
 
 #res_title {
