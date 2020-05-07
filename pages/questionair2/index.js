@@ -6,6 +6,9 @@ import Header from "../../comps/Header";
 import Progression from "../../comps/Progression";
 import Router from "next/router";
 
+//saving data
+import {data, ChangeData} from '../data.js';
+console.log(data);
 
 var q2answered = false;
 function q2Next(){
@@ -17,12 +20,20 @@ function q2Next(){
 }
 
 function border1(){
+   ChangeData({
+      answer2:"yes"
+   })
+
    document.getElementById("Ybutton").style.border = "3px solid #E3C9EA";
    document.getElementById("Nbutton").style.border = "none";
    q2answered = true;
 }
 
 function border2(){
+   ChangeData({
+      answer2:"no"
+   })
+
    document.getElementById("Ybutton").style.border = "none";
    document.getElementById("Nbutton").style.border = "3px solid #E3C9EA";
    q2answered = true;
@@ -75,7 +86,7 @@ const Question2 = ({onClick}) =><div>
 </div>
 
 <div className="quiz_buttons_box" >
-   <div class="YNbuttons">
+   <div className="YNbuttons">
       <CustomButton id="Ybutton"
          onClick={border1}
          fontSize="30px"

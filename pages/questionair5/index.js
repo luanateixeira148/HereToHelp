@@ -6,6 +6,11 @@ import Header from "../../comps/Header";
 import Progression from "../../comps/Progression";
 import Router from "next/router";
 
+//saving data
+import {data, ChangeData} from '../data.js';
+console.log(data);
+
+
 var q5answered = false;
 function q5Next(){
    if(q5answered===true){
@@ -16,12 +21,20 @@ function q5Next(){
 }
 
 function border1(){
+   ChangeData({
+      answer5:"yes"
+   })
+
    document.getElementById("Ybutton").style.border = "3px solid #E3C9EA";
    document.getElementById("Nbutton").style.border = "none";
    q5answered = true;
 }
 
 function border2(){
+   ChangeData({
+      answer5:"no"
+   })
+
    document.getElementById("Ybutton").style.border = "none";
    document.getElementById("Nbutton").style.border = "3px solid #E3C9EA";
    q5answered = true;

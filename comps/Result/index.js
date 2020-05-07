@@ -8,7 +8,7 @@ const Result = () =>
     <div className='measure'>
         <img className='measureimg' src={ResultData.level1meter} />
     </div>
-    <h2>Mild Depression</h2>
+    <h2>{ResultData.level1title}</h2>
     <div className='resulttext'>
         <p>{ResultData.level1text}</p>
     </div>
