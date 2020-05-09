@@ -21,9 +21,12 @@ function q4Next(){
 }
 
 function border1(){
-   ChangeData({
-      answer4:"yes"
-   })
+   // ChangeData({
+   //    answer4:"yes"
+   // })
+
+   data.answer4 = "yes";
+   ChangeData(data)
 
    document.getElementById("Ybutton").style.border = "3px solid #E3C9EA";
    document.getElementById("Nbutton").style.border = "none";
@@ -31,9 +34,12 @@ function border1(){
 }
 
 function border2(){
-   ChangeData({
-      answer4:"no"
-   })
+   // ChangeData({
+   //    answer4:"no"
+   // })
+
+   data.answer4 = "no";
+   ChangeData(data)
 
    document.getElementById("Ybutton").style.border = "none";
    document.getElementById("Nbutton").style.border = "3px solid #E3C9EA";
