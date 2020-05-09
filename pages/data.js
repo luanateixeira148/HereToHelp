@@ -10,10 +10,10 @@ export var data = {
 //     ChangeData(JSON.parse(val));
 // })
 
-if(process.browser){
-    var sessiondata = sessionStorage.getItem("data");
-    ChangeData(JSON.parse(sessiondata));
-}
+// if(process.browser){
+//     var sessiondata = sessionStorage.getItem("data");
+//     ChangeData(JSON.parse(sessiondata));
+// }
 
 
 export function ChangeData(d) {
