@@ -1,11 +1,11 @@
 import React from 'react';
 import './resultpage.css';
+import CustomButton from '../../comps/custombuttons';
 import Header from '../../comps/Header';
 import Result from '../../comps/Result';
 import ResultCard from '../../comps/ResultCard';
 import {ResultCardData} from '../../comps/ResultCard/data';
 import {ResultData} from '../../comps/Result/data';
-import CustomButton from '../../comps/custombuttons';
 import Link from "next/link";
 
 //saving data
