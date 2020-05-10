@@ -4,6 +4,7 @@ export var data = {
     answer3:"",
     answer4:"",
     answer5:"",
+    numYes:0,
 }
 
 // sessionStorage.getItem("data").then((val)=>{

@@ -25,6 +25,7 @@ function border1(){
    // })
 
    data.answer2 = "yes";
+   data.numYes++;
    ChangeData(data)
 
    document.getElementById("Ybutton").style.border = "3px solid #E3C9EA";

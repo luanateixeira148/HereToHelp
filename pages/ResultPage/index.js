@@ -4,6 +4,7 @@ import Header from '../../comps/Header';
 import Result from '../../comps/Result';
 import ResultCard from '../../comps/ResultCard';
 import {ResultCardData} from '../../comps/ResultCard/data';
+import {ResultData} from '../../comps/Result/data';
 import CustomButton from '../../comps/custombuttons';
 import Link from "next/link";
 
@@ -15,8 +16,44 @@ console.log(data);
 const ResultPage = ({}) => 
 <div className="result_box">
     <Header />
-    <Result />
 
+ {/* Result */}
+ {data.numYes === 1 ?
+    <Result 
+        meter={ResultData.level1meter}
+        title={ResultData.level1title}
+        text={ResultData.level1text}
+    /> : null}
+
+{data.numYes === 2 ?
+    <Result 
+        meter={ResultData.level2meter}
+        title={ResultData.level2title}
+        text={ResultData.level2text}
+    /> : null}
+
+{data.numYes === 3 ?
+    <Result 
+        meter={ResultData.level3meter}
+        title={ResultData.level3title}
+        text={ResultData.level3text}
+    /> : null}
+
+{data.numYes === 4 ?
+    <Result 
+        meter={ResultData.level4meter}
+        title={ResultData.level4title}
+        text={ResultData.level4text}
+    /> : null}
+
+{data.answer5 !== "no" ? 
+    <Result 
+    meter={ResultData.level5meter}
+    title={ResultData.level5title}
+    text={ResultData.level5text}
+    /> : null}
+
+{/* Result cards  */}
     {data.answer1 !== "no" ? 
         <ResultCard 
             title={ResultCardData.title1}
