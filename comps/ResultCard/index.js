@@ -6,7 +6,7 @@ const ResultCardSleep = ({image, title, icon, text}) =>
 <div className='resultCard'>
     <img className='rcImage' src={image} />
     <div className='rcTitle'>
-        <img className='rcIcon' scr={icon} />
+        <img className='rcIcon' src={icon} />
         <h4 id="rcTitle2">{title}</h4>
     </div>
     <div className='rcText'>
