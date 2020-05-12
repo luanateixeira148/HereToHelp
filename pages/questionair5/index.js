@@ -49,19 +49,13 @@ function border2(){
 
 const SmileyIcon = require ("../../comps/image/smiley.png")
 
-const Question5 = ({onClick}) =><div>
+const Question5 = ({onClick}) =><div className="body_quiz">
 <div className="qcard_cont">
    <Header headerColor="#5658AF" />
    <Progression  progress={5}/>
    <h1 className="quizc_title">
    5. Self harm
    </h1>
-{/* <Heading id="qnumber"
-   text="5. Self harm"
-   textAlign= "center"
-   fontFamily= "Gotu"
-   fontSize = {36}
-   /> */}
 
 {/* <Heading 
 text="Researchers have suggested that the ability to take in information efficiently is weakened in individuals who are depressed." 
@@ -71,7 +65,7 @@ fontFamily= "Lato"
 fontWeight= "lighter"
 /> */}
 
-<div id="smiley">
+<div className="qc_img5">
  <img src={SmileyIcon}/> 
 </div>
 
@@ -79,17 +73,10 @@ fontWeight= "lighter"
    <p className="bold">
    Do you have thoughts of hurting yourself?
    </p>
-   {/* <Heading 
-      text="Do you have thoughts of hurting yourself?" 
-      fontSize = {20}
-      color="#FFFFFF"
-      textAlign= "left"
-      fontFamily= "Lato"
-      /> */}
 </div>
 
 <div className="quiz_buttons_box">
-   <div id="YNbuttons">
+   <div className="YNbuttons">
       <CustomButton id="Ybutton"
          onClick={border1}
          fontSize="30px"

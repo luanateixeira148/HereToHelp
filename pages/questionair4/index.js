@@ -50,34 +50,21 @@ function border2(){
 
 const BrainIcon = require ("../../comps/image/brain.png")
 
-const Question4 = ({onClick}) =><div>
-<div id="qcard_cont">
+const Question4 = ({onClick}) =><div className="body_quiz">
+<div className="qcard_cont">
    <Header headerColor="#5658AF" />
    <Progression  progress={4}/>
    <h1 className="quizc_title">
       4. Concentration
    </h1>
-   {/* <Heading id="qnumber"
-   text="4. Concentration"
-   textAlign= "center"
-   fontFamily= "Gotu"
-   fontSize = {36}
-/> */}
 
 <div className="qc_text">
    <p>
       Researchers suggest that the ability to take in information is weakened in individuals who are depressed.
    </p>
-   {/* <Heading 
-      text="Researchers suggest that the ability to take in information is weakened in individuals who are depressed." 
-      fontSize = {18}
-      textAlign= "left"
-      fontFamily= "Lato"
-      fontWeight= "lighter"
-      /> */}
 </div>
 
-<div id="brain">
+<div className="qc_img">
    <img src={BrainIcon}/> 
 </div>
 
@@ -95,7 +82,7 @@ const Question4 = ({onClick}) =><div>
 </div>
 
 <div className="quiz_buttons_box" >
-   <div id="YNbuttons">
+   <div className="YNbuttons">
       <CustomButton id="Ybutton"
          onClick={border1}
          fontSize="30px"

@@ -50,34 +50,21 @@ function border2(){
 
 const SpiralIcon = require ("../../comps/image/spiral.png")
 
-const Question3 = ({onClick}) =><div>
+const Question3 = ({onClick}) =><div className="body_quiz">
 <div className="qcard_cont">
    <Header headerColor="#5658AF" />
    <Progression  progress={3}/>
    <h1 className="quizc_title">
       3. Energy Level
    </h1>
-{/* <Heading id="qnumber"
-   text="3.Energy Level"
-   textAlign= "center"
-   fontFamily= "Gotu"
-   fontSize = {36}
-   /> */}
 
 <div className="qc_text">
    <p>
       According to studies, fatigue occurs in over 90% of patients with depressive disorder.
    </p>
-   {/* <Heading 
-      text="According to studies, fatigue occurs in over 90% of patients with depressive disorder." 
-      fontSize = {18}
-      textAlign= "left"
-      fontFamily= "Lato"
-      fontWeight= "lighter"
-      /> */}
 </div>
 
-<div id="energy">
+<div className="qc_img">
    <img src={SpiralIcon}/> 
 </div>
 
@@ -85,17 +72,10 @@ const Question3 = ({onClick}) =><div>
    <p className="bold">
       Have you been experiencing extreme fatigue and/or loss of energy lately?
    </p>
-{/* <Heading 
-      text="Have you been experiencing extreme fatigue and/or loss of energy lately?" 
-      fontSize = {20}
-      color="#FFFFFF"
-      textAlign= "left"
-      fontFamily= "Lato"
-      /> */}
 </div>
 
 <div className="quiz_buttons_box" >
-   <div id="YNbuttons">
+   <div className="YNbuttons">
       <CustomButton id="Ybutton"
          onClick={border1}
          fontSize="30px"
