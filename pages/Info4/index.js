@@ -12,7 +12,7 @@ const Info4 = ({ img, text2, title, text, backgroundColor }) => <div
     className="body4"
 >
     <div className="background4" >
-        <div className="header44">
+        <div className="header4">
             <Header />
         </div>
         <div className="app4">
@@ -24,9 +24,6 @@ const Info4 = ({ img, text2, title, text, backgroundColor }) => <div
                     <p>{text}</p>
                     <p>{text2}</p>
                 </div>
-                {/* <div className="content_img">
-            <img src={img} />
-        </div> */}
             </div>
         </div>
         

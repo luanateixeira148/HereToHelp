@@ -34,7 +34,6 @@
 .app_info {
     flex: 4;
     flex-direction: column;
-    /* height: 50px; */
 }
 
 .title_info {

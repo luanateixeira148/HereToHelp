@@ -9,21 +9,21 @@ const fiveImage = require('../../comps/imgs/five.png');
 
 const Info3 = ({ img, title, text, backgroundColor }) => <div
 style={{ backgroundColor: backgroundColor }}
-    className="body3"
+    className="body_info"
 >
-<div className="background3" >
-    <div className="header3">
+<div className="background_info" >
+    <div className="header_info">
         <Header />
     </div>
-    <div className="app3">
-    <div className="title3">
+    <div className="app_info">
+    <div className="title_info">
         <h1>{title}</h1>
     </div>
-    <div className="content3">
-        <div className="content_text3">
+    <div className="content_info">
+        <div className="content_text_info">
             <p>{text}</p>
         </div>
-        <div className="content_img3">
+        <div className="content_img_info">
             <img src={img} />
         </div>
         </div>
