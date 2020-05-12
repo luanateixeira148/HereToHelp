@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import "./question5.css";
+import "../questionaire.css"
 import Heading from "../../comps/heading";
 import CustomButton from "../../comps/custombuttons";
 import Header from "../../comps/Header";
@@ -9,7 +9,6 @@ import Router from "next/router";
 //saving data
 import {data, ChangeData} from '../data.js';
 console.log(data);
-
 
 var q5answered = false;
 function q5Next(){

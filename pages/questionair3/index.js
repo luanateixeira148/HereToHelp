@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import "./question3.css";
+import "../questionaire.css"
 import Heading from "../../comps/heading";
 import CustomButton from "../../comps/custombuttons";
 import Header from "../../comps/Header";
