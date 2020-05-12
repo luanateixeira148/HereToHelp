@@ -1,4 +1,5 @@
 .header_box {
+    /* background-color: #6C4AA4; */
     height: 92px;
     width: 100%;
     display: flex;
@@ -10,8 +11,8 @@
     height: 20px;
     width: 32px;
     position: absolute;
-    left: 10%;
-    top: 37%;
+    left: 23.5px;
+    top: 37px;
 }
 
 .small_logo_box {
