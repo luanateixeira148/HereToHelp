@@ -8,7 +8,7 @@ import Router from "next/router";
 
 
 //saving data
-import {data, ChangeData} from '../data.js';
+import {data, ChangeData} from '../../data';
 console.log(data);
 
 

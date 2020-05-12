@@ -9,7 +9,7 @@ import {ResultData} from '../../comps/Result/data';
 import Link from "next/link";
 
 //saving data
-import {data, ChangeData} from '../data.js';
+import {data, ChangeData} from '../../data';
 console.log(data);
 
 
