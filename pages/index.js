@@ -7,11 +7,11 @@ const logoImage = require('../comps/imgs/bigLogo.svg');
 
 const Index = ({ img, title1, title2, text1, text2, backgroundColor }) => <div
 style={{ backgroundColor: backgroundColor }}
-    className="body"
+    className="body_home"
 >
-<div className="background" >
+<div className="background">
     <div className="app">
-        <div className="title">
+        <div className="title_home">
             <h4 className="hometitle1">{title1}</h4>
             <h4 className="hometitle2">{title2}</h4>
         </div>
