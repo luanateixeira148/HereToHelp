@@ -64,7 +64,7 @@ const Question1 = ({onClick}) => <div className="body_quiz">
    </p>
 </div>
 
-<div id="qc_img">
+<div className="qc_img">
    <img src={SleepIcon}/> 
 </div>
 

@@ -26,13 +26,13 @@
     flex: 1;
 }
 
-#qc_img img{
+.qc_img img{
     margin-top: 10px;
     width: auto;
     height: 125px;
 }
 
-#qc_img{
+.qc_img{
     display: flex;
     flex: 2;
     align-items: center;
