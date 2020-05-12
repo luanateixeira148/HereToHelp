@@ -9,21 +9,21 @@ const depressedImage = require('../../comps/imgs/depression.png');
 
 const Info1 = ({ img, title, text, backgroundColor }) => <div
     style={{ backgroundColor: backgroundColor }}
-    className="body1"
+    className="body_info"
 >
-    <div className="background1" >
-        <div className="header1">
+    <div className="background_info" >
+        <div className="header_info">
             <Header />
         </div>
-        <div className="app1">
-            <div className="title1">
+        <div className="app_info">
+            <div className="title_info">
                 <h1>{title}</h1>
             </div>
-            <div className="content1">
-                <div className="content_text1">
+            <div className="content_info">
+                <div className="content_text_info">
                     <p>{text}</p>
                 </div>
-                <div className="content_img1">
+                <div className="content_img_info">
                     <img src={img} />
                 </div>
             </div>
