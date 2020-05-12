@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet');
-
 .resultCard {
-    width: 360px;
+    width: 100%;
     height: fit-content;
     background-color: #6654AD;
     padding-bottom: 20px;
 }
+
 .rcTitle {
     display: flex;
     flex-direction: row;
@@ -25,7 +24,7 @@
 }
 
 .rcImage  {
-    width: 360px;
+    width: 100%;
     height: auto;
 }
 

@@ -47,10 +47,10 @@ const ResultPage = ({}) =>
     /> : null}
 
 {data.answer5 !== "no" ? 
-    <Result 
-    meter={ResultData.level5meter}
-    title={ResultData.level5title}
-    text={ResultData.level5text}
+        <Result 
+        meter={ResultData.level5meter}
+        title={ResultData.level5title}
+        text={ResultData.level5text}
     /> : null}
 
 {/* Result cards  */}
@@ -90,7 +90,7 @@ const ResultPage = ({}) =>
         <div className='resultButton'>
         <CustomButton          
             width="300px"
-            text="Resources"
+            text="Find Help"
             fontFamily="Gotu"
             fontSize={24}
              />
