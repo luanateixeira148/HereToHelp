@@ -22,6 +22,7 @@ const Info4 = ({ img, text2, title, text, backgroundColor }) => <div
             <div className="content4">
                 <div className="content_text4">
                     <p>{text}</p>
+                    <br/>
                     <p>{text2}</p>
                 </div>
             </div>
