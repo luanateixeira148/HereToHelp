@@ -1,11 +1,10 @@
 #resources_container {
-    /* background-color: #6654AD; */
-    background-image: url(/resourcesbg.svg)!important;
-    width: 360px;
+    width: 100vw;
+    min-width: 360px;
     height: auto;
-    /* background-repeat: no-repeat;
-    background-size: contain;
-    flex-direction: column; */
+    background-image: url(/resourcesbg.svg)!important;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #resources_tile {
@@ -15,32 +14,23 @@
 #crisiscenter_box {
     /* background-color: rgba(215, 191, 226, 0.2); */
     height: 86px;
-    width: 360px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 #resources_info_box {
-    padding: 30px;
+    padding: 40px;
 }
 
 .resorcesButton {
-    width: 360px;
+    width: 100%;
     height: 102px;
     display: flex;
     align-items: center;
     justify-content: center;
     /* background-color: #705BB4; */
-}
-
-#res_title {
-    margin-top: ;
-}
-
-#res_link {
-    margin-top: ;
-    margin-bottom: ;
 }
 
 /* TYPOGRAPHY */
