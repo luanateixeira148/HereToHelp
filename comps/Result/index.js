@@ -2,7 +2,7 @@ import React from 'react';
 import './result.css';
 import { ResultData } from './data';
 
-const Result = ({meter, title, text}) =>
+const Result = ({meter, title, text, text2}) =>
 <div className='resultbox'>
     <h1 id="result_title">Result</h1>
     <div className='measure'>
@@ -11,6 +11,7 @@ const Result = ({meter, title, text}) =>
     <h2>{title}</h2>
     <div className='resulttext'>
         <p>{text}</p>
+        <p>{text2}</p>
     </div>
 </div>
 

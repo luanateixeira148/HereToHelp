@@ -24,6 +24,7 @@ export const ResultData = {
     level4meter:meter4,
 
     level5title:"Severe Depression",
-    level5text:"CRISIS CENTER BC (1-800-784-2433)",
+    level5text:"CRISIS CENTER BC",
+    level5text2:"(1-800-784-2433)",
     level5meter:meter5,
 }

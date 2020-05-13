@@ -12,7 +12,6 @@ import Link from "next/link";
 import {data, ChangeData} from '../../data';
 console.log(data);
 
-
 const ResultPage = ({}) => 
 <div className="result_box">
     <Header />
@@ -51,10 +50,11 @@ const ResultPage = ({}) =>
         meter={ResultData.level5meter}
         title={ResultData.level5title}
         text={ResultData.level5text}
+        text2={ResultData.level5text2}
     /> : null}
 
 {/* Result cards  */}
-    {data.answer1 !== "no" && data.answer5 !== "yes" ? 
+    {data.answer1 !== "no" ? 
         <ResultCard 
             title={ResultCardData.title1}
             image={ResultCardData.image1}
@@ -62,7 +62,7 @@ const ResultPage = ({}) =>
             text={ResultCardData.text1}
         /> : null}
 
-    {data.answer2 !== "no" && data.answer5 !== "yes" ? 
+    {data.answer2 !== "no" ? 
          <ResultCard 
          title={ResultCardData.title2}
          image={ResultCardData.image2}
@@ -70,7 +70,7 @@ const ResultPage = ({}) =>
          text={ResultCardData.text2}
      /> : null}
 
-    {data.answer3 !== "no" && data.answer5 !== "yes" ? 
+    {data.answer3 !== "no" ? 
          <ResultCard 
          title={ResultCardData.title3}
          image={ResultCardData.image3}
@@ -78,7 +78,7 @@ const ResultPage = ({}) =>
          text={ResultCardData.text3}
      /> : null}
 
-    {data.answer4 !== "no" && data.answer5 !== "yes" ? 
+    {data.answer4 !== "no" ? 
          <ResultCard 
          title={ResultCardData.title4}
          image={ResultCardData.image4}
