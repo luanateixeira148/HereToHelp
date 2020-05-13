@@ -18,28 +18,28 @@ const ResultPage = ({}) =>
     <Header />
 
  {/* Result */}
- {data.numYes === 1 ?
+ {data.numYes === 1 && data.answer5 !== "yes" ?
     <Result 
         meter={ResultData.level1meter}
         title={ResultData.level1title}
         text={ResultData.level1text}
     /> : null}
 
-{data.numYes === 2 ?
+{data.numYes === 2 && data.answer5 !== "yes" ?
     <Result 
         meter={ResultData.level2meter}
         title={ResultData.level2title}
         text={ResultData.level2text}
     /> : null}
 
-{data.numYes === 3 ?
+{data.numYes === 3 && data.answer5 !== "yes" ?
     <Result 
         meter={ResultData.level3meter}
         title={ResultData.level3title}
         text={ResultData.level3text}
     /> : null}
 
-{data.numYes === 4 ?
+{data.numYes === 4 && data.answer5 !== "yes" ?
     <Result 
         meter={ResultData.level4meter}
         title={ResultData.level4title}
@@ -54,7 +54,7 @@ const ResultPage = ({}) =>
     /> : null}
 
 {/* Result cards  */}
-    {data.answer1 !== "no" ? 
+    {data.answer1 !== "no" && data.answer5 !== "yes" ? 
         <ResultCard 
             title={ResultCardData.title1}
             image={ResultCardData.image1}
@@ -62,7 +62,7 @@ const ResultPage = ({}) =>
             text={ResultCardData.text1}
         /> : null}
 
-    {data.answer2 !== "no" ? 
+    {data.answer2 !== "no" && data.answer5 !== "yes" ? 
          <ResultCard 
          title={ResultCardData.title2}
          image={ResultCardData.image2}
@@ -70,7 +70,7 @@ const ResultPage = ({}) =>
          text={ResultCardData.text2}
      /> : null}
 
-    {data.answer3 !== "no" ? 
+    {data.answer3 !== "no" && data.answer5 !== "yes" ? 
          <ResultCard 
          title={ResultCardData.title3}
          image={ResultCardData.image3}
@@ -78,7 +78,7 @@ const ResultPage = ({}) =>
          text={ResultCardData.text3}
      /> : null}
 
-    {data.answer4 !== "no" ? 
+    {data.answer4 !== "no" && data.answer5 !== "yes" ? 
          <ResultCard 
          title={ResultCardData.title4}
          image={ResultCardData.image4}
